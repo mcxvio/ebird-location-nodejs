@@ -1,0 +1,7 @@
+/*
+var path = require('path');
+
+exports.returnAll = function(req, res) {
+    res.sendFile('client.js', { root: path.join(__dirname, '/client') });
+};
+*/

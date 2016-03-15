@@ -1,0 +1,53 @@
+COUNTRY_CODE,SUBNATIONAL1_CODE,SUBNATIONAL1_NAME,LOCAL_ABBREVIATION
+US,US-,United States,
+US,US-AK,Alaska,AK
+US,US-AL,Alabama,AL
+US,US-AR,Arkansas,AR
+US,US-AZ,Arizona,AZ
+US,US-CA,California,CA
+US,US-CO,Colorado,CO
+US,US-CT,Connecticut,CT
+US,US-DC,District of Columbia,DC
+US,US-DE,Delaware,DE
+US,US-FL,Florida,FL
+US,US-GA,Georgia,GA
+US,US-HI,Hawaii,HI
+US,US-IA,Iowa,IA
+US,US-ID,Idaho,ID
+US,US-IL,Illinois,IL
+US,US-IN,Indiana,IN
+US,US-KS,Kansas,KS
+US,US-KY,Kentucky,KY
+US,US-LA,Louisiana,LA
+US,US-MA,Massachusetts,MA
+US,US-MD,Maryland,MD
+US,US-ME,Maine,ME
+US,US-MI,Michigan,MI
+US,US-MN,Minnesota,MN
+US,US-MO,Missouri,MO
+US,US-MS,Mississippi,MS
+US,US-MT,Montana,MT
+US,US-NC,North Carolina,NC
+US,US-ND,North Dakota,ND
+US,US-NE,Nebraska,NE
+US,US-NH,New Hampshire,NH
+US,US-NJ,New Jersey,NJ
+US,US-NM,New Mexico,NM
+US,US-NV,Nevada,NV
+US,US-NY,New York,NY
+US,US-OH,Ohio,OH
+US,US-OK,Oklahoma,OK
+US,US-OR,Oregon,OR
+US,US-PA,Pennsylvania,PA
+US,US-RI,Rhode Island,RI
+US,US-SC,South Carolina,SC
+US,US-SD,South Dakota,SD
+US,US-TN,Tennessee,TN
+US,US-TX,Texas,TX
+US,US-UT,Utah,UT
+US,US-VA,Virginia,VA
+US,US-VT,Vermont,VT
+US,US-WA,Washington,WA
+US,US-WI,Wisconsin,WI
+US,US-WV,West Virginia,WV
+US,US-WY,Wyoming,WY
