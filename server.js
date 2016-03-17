@@ -1,14 +1,20 @@
 var express = require('express'),
-    regions = require('./routes/regions'),
-    path = require('path');
+    location = require('./routes/location');
 
 var app = express();
 app.use(express.static('client'));
+//app.use(express.static('data'));
+
 
 //app.get('/', regions.default);
-app.get('/regions', regions.findAll);
-app.get('/regions/sub1/:code', regions.findSubNat1ByCountryCode);
-app.get('/regions/sub2/:code', regions.findSubNat2ByCountryCode);
+
+app.get('/location/', location.default);
+app.get('/location/country', location.countriesAll);
+app.get('/location/subnational1', location.subnational1All);
+app.get('/location/subnational2', location.subnational2All);
+
+app.get('/location/subnational1/:countryCode', location.subNational1ByCountryCode);
+app.get('/location/subnational2/:countryCode', location.subNational2ByCountryCode);
 
 app.listen(process.env.PORT);
 console.log('IP: ' + process.env.IP);
