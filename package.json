@@ -1,9 +1,14 @@
 {
-    "name": "nodejs-hw",
-    "description": "Node Test App",
-    "version": "0.0.1",
-    "private": true,
+    "name": "ebird-location-nodejs",
+    "description": "REST API for eBird location data",
+    "author": {
+        "name": "Marcus Hunt",
+        "email": "mrhapi@outlook.com"
+    }
+    "version": "1.0",
     "dependencies": {
-        "express": "4.x"
+        "csvtojson": "0.5.2",
+        "express": "4.x",
+        "json-query": "1.8.0"
     }
 }

@@ -1,112 +1,171 @@
 exports.default = function(req, res) {
-    //res.send("Hello world");
-
-    var jsonQuery = require("json-query");
-  
-    //var data = JSON.parse(require("fs").readFileSync("./data/people.json"));
-    //var data = require("../data/people.json");
-    /*
-    var data = require("../data/all_countries_subnationals.json");
-    
-    //res.send(jsonQuery('people[*country!=].name', { data: data }).value);
-    res.send(jsonQuery('result[*subnational1-code=].name', { data: data }).value);
-    */
-    
-    var Converter = require("csvtojson").Converter;
-    var converter = new Converter({});
-    
-    converter.on("end_parsed", function (data) {
-        
-        //res.send(JSON.stringify(data));
-        
-        res.send( jsonQuery('[*SUBNATIONAL2_CODE!=]', { data: data }) );        
-    });
-
-    require("fs").createReadStream("./data/ebird_api_ref_location_eBird_list_all_subnationals.csv").pipe(converter);
+    res.send("ebird-location-nodejs");
 };
 
-/* json query example here - select all from .json for US-
-//var jsonQuery = require('json-query')
-*/
-
-exports.countriesAll = function(req, res) {
+function getConverter() {
     var Converter = require("csvtojson").Converter;
     var converter = new Converter({});
+    return converter;    
+}
+
+function convertCsvToJson(converter, file, res) {
+    var stream = require("fs").createReadStream(file);
+    stream.pipe(converter);
+    
+    stream.on('error', function (error) { res.send("Caught: " + error); });
+    stream.on('readable', function () { stream.pipe(converter); });
+}
+
+function getCsvFile(type) {
+    if (type == "bcr") {
+        return "./data/ebird_api_ref_location_eBird_list_bcr.csv";
+    }
+    if (type == "country") {
+        return "./data/ebird_api_ref_location_eBird_list_country.csv";
+    }
+    if (type == "subnational1") {
+        return "./data/ebird_api_ref_location_eBird_list_subnational1.csv";
+    }
+    if (type == "subnational2") {
+        return "./data/ebird_api_ref_location_eBird_list_subnational2.csv";
+    }
+}
+
+/* BCR */
+exports.bcrAll = function(req, res) {
+    var converter = getConverter();
+
+    converter.on("end_parsed", function (jsonArray) {
+        res.send(JSON.stringify(jsonArray));
+    });
+
+    convertCsvToJson(converter, getCsvFile("bcr"), res);
+};
+
+exports.bcrMatch = function(req, res) {
+    var converter = getConverter();
+    var search = req.params.search.toLowerCase();
+    
+    converter.on("end_parsed", function (data) {
+    	var results = data.filter(function(i, n) {
+	        return i.PRIMARY_NAME.toLowerCase().indexOf(search) > -1;
+        });
+        res.send(JSON.stringify(results));
+    });
+
+    convertCsvToJson(converter, getCsvFile("bcr"), res);
+};
+
+/* Country */
+exports.countriesAll = function(req, res) {
+    var converter = getConverter();
     
     converter.on("end_parsed", function (jsonArray) {
         res.send(JSON.stringify(jsonArray));
     });
 
-    require("fs").createReadStream("./data/ebird_api_ref_location_eBird_list_all_countries.csv").pipe(converter);
+    convertCsvToJson(converter, getCsvFile("country"), res);
 };
 
+exports.countriesMatch = function(req, res) {
+    var converter = getConverter();
+    var search = req.params.search.toLowerCase();
+    
+    converter.on("end_parsed", function (data) {
+    	var results = data.filter(function(i, n) {
+	        return i.COUNTRY_NAME.toLowerCase().indexOf(search) > -1;
+        });
+        res.send(JSON.stringify(results));
+    });
+
+    convertCsvToJson(converter, getCsvFile("country"), res);
+};
+
+/* Subnational1 */
 exports.subnational1All = function(req, res) {
-    var Converter = require("csvtojson").Converter;
-    var converter = new Converter({});
-    var jsonQuery = require("json-query");
+    var converter = getConverter();
     
     converter.on("end_parsed", function (data) {
-        //res.send(JSON.stringify(data));
-        res.send( jsonQuery('[*SUBNATIONAL2_CODE=]', { data: data }).value );
+        res.send(JSON.stringify(data));
     });
     
-    // filter from all subnationals, those rows that DON'T have subnational 2 id.
-    require("fs").createReadStream("./data/ebird_api_ref_location_eBird_list_all_subnationals.csv").pipe(converter);
+    convertCsvToJson(converter, getCsvFile("subnational1"), res);
 };
 
+exports.subnational1ByCountryCode = function(req, res) {
+    var converter = getConverter();
+    var jsonQuery = require("json-query");
+    var countryCode = req.params.countryCode.toUpperCase();
+
+    converter.on("end_parsed", function (data) {
+        var results = jsonQuery('[*COUNTRY_CODE=' + countryCode + ']', { data: data }).value;
+        res.send(JSON.stringify(results));
+    });
+    
+    convertCsvToJson(converter, getCsvFile("subnational1"), res);
+};
+
+exports.subnational1Match = function(req, res) {
+    var converter = getConverter();
+    var search = req.params.search.toLowerCase();
+    
+    converter.on("end_parsed", function (data) {
+    	var results = data.filter(function(i, n) {
+	        return i.SUBNATIONAL1_NAME.toLowerCase().indexOf(search) > -1;
+        });
+        res.send(JSON.stringify(results));
+    });
+
+    convertCsvToJson(converter, getCsvFile("subnational1"), res);
+};
+
+/* Subnational2 */
 exports.subnational2All = function(req, res) {
-    var Converter = require("csvtojson").Converter;
-    var converter = new Converter({});
-    var jsonQuery = require("json-query");
+    var converter = getConverter();
     
     converter.on("end_parsed", function (data) {
-        //res.send(JSON.stringify(data));
-        res.send( jsonQuery('[*SUBNATIONAL2_CODE!=]', { data: data }).value );
+        res.send(JSON.stringify(data));
     });
 
-    // filter from all subnationals, those rows that DO have subnational 2 id.
-    require("fs").createReadStream("./data/ebird_api_ref_location_eBird_list_all_subnationals.csv").pipe(converter);
+    convertCsvToJson(converter, getCsvFile("subnational2"), res);
 };
 
-exports.subNational1ByCountryCode = function(req, res) {
-    var Converter = require("csvtojson").Converter;
-    var converter = new Converter({});
+exports.subnational2ByCountryCode = function(req, res) {
+    var converter = getConverter();
     var jsonQuery = require("json-query");
-    var countryCode = req.params.countryCode;
-            
+    var countryCode = req.params.countryCode.toUpperCase();
+
     converter.on("end_parsed", function (data) {
-        //res.send(JSON.stringify(data));
-        var subnat1s = jsonQuery('[*SUBNATIONAL2_CODE=]', { data: data }).value;
-        
-        res.send( jsonQuery('[*COUNTRY_CODE=' + countryCode + ']', { data: subnat1s }).value );
+        var results = jsonQuery('[*COUNTRY_CODE=' + countryCode + ']', { data: data }).value;
+        res.send(JSON.stringify(results));        
     });
-    
-    // filter from all subnationals, those rows that DON'T have subnational 2 id.
-    //require("fs").createReadStream("./data/ebird_api_ref_location_eBird_list_all_subnationals.csv").pipe(converter);
-    var stream = require("fs").createReadStream("./data/ebird_api_ref_location_eBird_list_all_subnationals.csv");
-    stream.pipe(converter);
-    
-    stream.on('error', function (error) { res.send("Caught: " + error); });
-    stream.on('readable', function () { stream.pipe(converter); });
+
+    convertCsvToJson(converter, getCsvFile("subnational2"), res);
 };
 
-exports.subNational2ByCountryCode = function(req, res) {
-    var Converter = require("csvtojson").Converter;
-    var converter = new Converter({});
+exports.subnational2BySubnational1Code = function(req, res) {
+    var converter = getConverter();
     var jsonQuery = require("json-query");
-    var countryCode = req.params.countryCode;
+    var subnational1Code = req.params.subnational1Code.toUpperCase();
 
     converter.on("end_parsed", function (data) {
-        //res.send(JSON.stringify(data));
-        var subnat2s = jsonQuery('[*SUBNATIONAL2_CODE!=]', { data: data }).value;
-        
-        res.send( jsonQuery('[*COUNTRY_CODE=' + countryCode + ']', { data: subnat2s }).value );
+        var results = jsonQuery('[*SUBNATIONAL1_CODE=' + subnational1Code + ']', { data: data }).value;
+        res.send(JSON.stringify(results));
     });
 
-    //require("fs").createReadStream("./data/ebird_api_ref_location_eBird_list_all_subnationals.csv").pipe(converter);
-    var stream = require("fs").createReadStream("./data/ebird_api_ref_location_eBird_list_all_subnationals.csv");
-    stream.pipe(converter);
+    convertCsvToJson(converter, getCsvFile("subnational2"), res);
+};
 
-    stream.on('error', function (error) { res.send("Caught: " + error); });
-    stream.on('readable', function () { stream.pipe(converter); });
+exports.subnational2Match = function(req, res) {
+    var converter = getConverter();
+    var search = req.params.search.toLowerCase();
+    
+    converter.on("end_parsed", function (data) {
+    	var results = data.filter(function(i, n) {
+	        return i.SUBNATIONAL2_NAME.toLowerCase().indexOf(search) > -1;
+        });
+        res.send(JSON.stringify(results));
+    });
+
+    convertCsvToJson(converter, getCsvFile("subnational2"), res);
 };

@@ -1,4 +1,1545 @@
 COUNTRY_CODE,SUBNATIONAL1_CODE,SUBNATIONAL2_CODE,SUBNATIONAL2_NAME
+CA,CA-AB,CA-AB-EI,Red Deer
+CA,CA-AB,CA-AB-EL,Edmonton
+CA,CA-AB,CA-AB-ET,Grande Cache
+CA,CA-AB,CA-AB-FI,Drumheller
+CA,CA-AB,CA-AB-FN,Banff
+CA,CA-AB,CA-AB-FO,Hanna
+CA,CA-AB,CA-AB-FT,Edson
+CA,CA-AB,CA-AB-NI,Rocky Mountain House
+CA,CA-AB,CA-AB-NT,Grande Prairie
+CA,CA-AB,CA-AB-ON,Medicine Hat
+CA,CA-AB,CA-AB-SE,Stettler
+CA,CA-AB,CA-AB-SI,Calgary
+CA,CA-AB,CA-AB-SN,Slave Lake
+CA,CA-AB,CA-AB-ST,Fort McMurray
+CA,CA-AB,CA-AB-TE,Camrose-Lloydminister
+CA,CA-AB,CA-AB-TN,Athabasca
+CA,CA-AB,CA-AB-TR,Fort MacLeod
+CA,CA-AB,CA-AB-TV,St. Paul
+CA,CA-AB,CA-AB-TW,Lethbridge
+CA,CA-BC,CA-BC-AC,Alberni-Clayoquot
+CA,CA-BC,CA-BC-BN,Bulkley-Nechako
+CA,CA-BC,CA-BC-CC,Central Coast
+CA,CA-BC,CA-BC-CK,Central Kootenay
+CA,CA-BC,CA-BC-CO,Central Okanagan
+CA,CA-BC,CA-BC-CP,Capital
+CA,CA-BC,CA-BC-CR,Cariboo
+CA,CA-BC,CA-BC-CS,Columbia-Shuswap
+CA,CA-BC,CA-BC-CV,Cowichan Valley
+CA,CA-BC,CA-BC-CX,Comox-Strathcona
+CA,CA-BC,CA-BC-EK,East Kootenay
+CA,CA-BC,CA-BC-FF,Fraser-Fort George
+CA,CA-BC,CA-BC-FV,Fraser Valley
+CA,CA-BC,CA-BC-GV,Metro Vancouver
+CA,CA-BC,CA-BC-KB,Kootenay Boundary
+CA,CA-BC,CA-BC-KS,Kitimat-Stikine
+CA,CA-BC,CA-BC-MW,Mount Waddington
+CA,CA-BC,CA-BC-NA,Nanaimo
+CA,CA-BC,CA-BC-NO,North Okanagan
+CA,CA-BC,CA-BC-NR,Northern Rockies
+CA,CA-BC,CA-BC-OS,Okanagan-Similkameen
+CA,CA-BC,CA-BC-PC,Peace River
+CA,CA-BC,CA-BC-PW,Powell River
+CA,CA-BC,CA-BC-SC,Sunshine Coast
+CA,CA-BC,CA-BC-SL,Squamish-Lillooet
+CA,CA-BC,CA-BC-SQ,Skeena-Queen Charlotte
+CA,CA-BC,CA-BC-ST,Stikine
+CA,CA-BC,CA-BC-TN,Thompson-Nicola
+CA,CA-MB,CA-MB-EE,Churchill and Northern Manitoba
+CA,CA-MB,CA-MB-EI,Central Manitoba - Central Plains
+CA,CA-MB,CA-MB-EL,Winnipeg
+CA,CA-MB,CA-MB-ET,North Interlake Area
+CA,CA-MB,CA-MB-FI,South West Westman
+CA,CA-MB,CA-MB-FN,Western Manitoba Westman
+CA,CA-MB,CA-MB-FO,Pilot Mound Area
+CA,CA-MB,CA-MB-FT,South Interlake
+CA,CA-MB,CA-MB-NI,Portage la Prairie Area
+CA,CA-MB,CA-MB-NT,North East Northern Region
+CA,CA-MB,CA-MB-ON,Eastern Manitoba - Eastman
+CA,CA-MB,CA-MB-SE,Brandon Area
+CA,CA-MB,CA-MB-SI,Virden Area
+CA,CA-MB,CA-MB-SN,Dauphin
+CA,CA-MB,CA-MB-ST,Roblin - Russell - Rossburn Area
+CA,CA-MB,CA-MB-TE,Whitehorse Plains
+CA,CA-MB,CA-MB-TN,Selkirk Area
+CA,CA-MB,CA-MB-TO,Flin Flon and North West
+CA,CA-MB,CA-MB-TR,Pembina Valley
+CA,CA-MB,CA-MB-TT,Swan River
+CA,CA-MB,CA-MB-TV,Beausejour Area
+CA,CA-MB,CA-MB-TW,Steinbach Area
+CA,CA-MB,CA-MB-TY,Thompson and North Central
+CA,CA-NB,CA-NB-AL,Albert
+CA,CA-NB,CA-NB-CA,Carleton
+CA,CA-NB,CA-NB-CH,Charlotte
+CA,CA-NB,CA-NB-GL,Gloucester
+CA,CA-NB,CA-NB-KE,Kent
+CA,CA-NB,CA-NB-KI,Kings
+CA,CA-NB,CA-NB-MA,Madawaska
+CA,CA-NB,CA-NB-NO,Northumberland
+CA,CA-NB,CA-NB-QU,Queens
+CA,CA-NB,CA-NB-RE,Restigouche
+CA,CA-NB,CA-NB-SJ,Saint John
+CA,CA-NB,CA-NB-SU,Sunbury
+CA,CA-NB,CA-NB-VI,Victoria
+CA,CA-NB,CA-NB-WE,Westmorland
+CA,CA-NB,CA-NB-YO,York
+CA,CA-NL,CA-NL-EI,Notre Dame Bay-Lewisporte
+CA,CA-NL,CA-NL-EL,Nunatsiavut-Nain
+CA,CA-NL,CA-NL-FI,Humber District-Corner Brook
+CA,CA-NL,CA-NL-FO,St. George's-Stephenville
+CA,CA-NL,CA-NL-NI,Northern Peninsula-St. Anthony
+CA,CA-NL,CA-NL-ON,Avalon Peninsula-St. John's
+CA,CA-NL,CA-NL-SE,Bonavista/Trinity-Clarenville
+CA,CA-NL,CA-NL-SI,Central Newfoundland-Grand Falls-Windsor
+CA,CA-NL,CA-NL-TE,Labrador-Happy Valley-Goose Bay
+CA,CA-NL,CA-NL-TR,South Coast-Channel-Port aux Basques
+CA,CA-NL,CA-NL-TW,Burin Peninsula-Marystown
+CA,CA-NS,CA-NS-AG,Antigonish
+CA,CA-NS,CA-NS-AP,Annapolis
+CA,CA-NS,CA-NS-CB,Cape Breton
+CA,CA-NS,CA-NS-CO,Colchester
+CA,CA-NS,CA-NS-CU,Cumberland
+CA,CA-NS,CA-NS-DI,Digby
+CA,CA-NS,CA-NS-GU,Guysborough
+CA,CA-NS,CA-NS-HL,Halifax
+CA,CA-NS,CA-NS-HN,Hants
+CA,CA-NS,CA-NS-IN,Inverness
+CA,CA-NS,CA-NS-KI,Kings
+CA,CA-NS,CA-NS-LU,Lunenburg
+CA,CA-NS,CA-NS-PI,Pictou
+CA,CA-NS,CA-NS-QU,Queens
+CA,CA-NS,CA-NS-RI,Richmond
+CA,CA-NS,CA-NS-SH,Shelburne
+CA,CA-NS,CA-NS-VI,Victoria
+CA,CA-NS,CA-NS-YA,Yarmouth
+CA,CA-NT,CA-NT-FS,Fort Smith
+CA,CA-NT,CA-NT-IN,Inuvik
+CA,CA-NU,CA-NU-KT,Kitikmeot
+CA,CA-NU,CA-NU-KV,Keewatin
+CA,CA-NU,CA-NU-QK,Baffin
+CA,CA-ON,CA-ON-AL,Algoma
+CA,CA-ON,CA-ON-BC,Bruce
+CA,CA-ON,CA-ON-BN,Brant
+CA,CA-ON,CA-ON-CO,Cochrane
+CA,CA-ON,CA-ON-DF,Dufferin
+CA,CA-ON,CA-ON-DR,Durham
+CA,CA-ON,CA-ON-EL,Elgin
+CA,CA-ON,CA-ON-ES,Essex
+CA,CA-ON,CA-ON-FR,Frontenac
+CA,CA-ON,CA-ON-GR,Grey
+CA,CA-ON,CA-ON-HA,Hamilton
+CA,CA-ON,CA-ON-HB,Haliburton
+CA,CA-ON,CA-ON-HD,Haldimand
+CA,CA-ON,CA-ON-HS,Hastings
+CA,CA-ON,CA-ON-HT,Halton
+CA,CA-ON,CA-ON-HU,Huron
+CA,CA-ON,CA-ON-KR,Kenora
+CA,CA-ON,CA-ON-KT,Chatham-Kent
+CA,CA-ON,CA-ON-LA,Lennox and Addington
+CA,CA-ON,CA-ON-LG,Leeds and Grenville
+CA,CA-ON,CA-ON-LM,Lambton
+CA,CA-ON,CA-ON-LN,Lanark
+CA,CA-ON,CA-ON-MA,Manitoulin
+CA,CA-ON,CA-ON-MI,Middlesex
+CA,CA-ON,CA-ON-MU,Muskoka
+CA,CA-ON,CA-ON-NF,Norfolk
+CA,CA-ON,CA-ON-NG,Niagara
+CA,CA-ON,CA-ON-NP,Nipissing
+CA,CA-ON,CA-ON-NU,Northumberland
+CA,CA-ON,CA-ON-OT,Ottawa
+CA,CA-ON,CA-ON-OX,Oxford
+CA,CA-ON,CA-ON-PB,Peterborough
+CA,CA-ON,CA-ON-PE,Prince Edward
+CA,CA-ON,CA-ON-PL,Peel
+CA,CA-ON,CA-ON-PR,Prescott and Russell
+CA,CA-ON,CA-ON-PS,Parry Sound
+CA,CA-ON,CA-ON-PT,Perth
+CA,CA-ON,CA-ON-RE,Renfrew
+CA,CA-ON,CA-ON-RR,Rainy River
+CA,CA-ON,CA-ON-SB,Sudbury
+CA,CA-ON,CA-ON-SC,Simcoe
+CA,CA-ON,CA-ON-SD,"Stormont, Dundas and Glengarry"
+CA,CA-ON,CA-ON-SU,Greater Sudbury
+CA,CA-ON,CA-ON-TB,Thunder Bay
+CA,CA-ON,CA-ON-TI,Timiskaming
+CA,CA-ON,CA-ON-TO,Toronto
+CA,CA-ON,CA-ON-VI,Kawartha Lakes
+CA,CA-ON,CA-ON-WL,Wellington
+CA,CA-ON,CA-ON-WT,Waterloo
+CA,CA-ON,CA-ON-YO,York
+CA,CA-PE,CA-PE-KI,Kings
+CA,CA-PE,CA-PE-PR,Prince
+CA,CA-PE,CA-PE-QU,Queens
+CA,CA-QC,CA-QC-AB,Abitibi
+CA,CA-QC,CA-QC-AC,Acton
+CA,CA-QC,CA-QC-AG,Argenteuil
+CA,CA-QC,CA-QC-AL,Antoine-Labelle
+CA,CA-QC,CA-QC-AN,L'Assomption
+CA,CA-QC,CA-QC-AO,Abitibi-Ouest
+CA,CA-QC,CA-QC-APP,Les Appalaches
+CA,CA-QC,CA-QC-AS,Les Sources
+CA,CA-QC,CA-QC-AT,Arthabaska
+CA,CA-QC,CA-QC-AV,Avignon
+CA,CA-QC,CA-QC-BA,Les Basques
+CA,CA-QC,CA-QC-BC,Bécancour
+CA,CA-QC,CA-QC-BH,Beauharnois-Salaberry
+CA,CA-QC,CA-QC-BL,Bellechasse
+CA,CA-QC,CA-QC-BM,Brome-Missisquoi
+CA,CA-QC,CA-QC-BO,Bonaventure
+CA,CA-QC,CA-QC-BR,Pierre-De Saurel
+CA,CA-QC,CA-QC-BS,Beauce-Sartigan
+CA,CA-QC,CA-QC-CAN,Caniapiscau
+CA,CA-QC,CA-QC-CB,La Côte-de-Beaupré
+CA,CA-QC,CA-QC-CE,Charlevoix-Est
+CA,CA-QC,CA-QC-CG,La Côte-de-Gaspé
+CA,CA-QC,CA-QC-CM,Shawinigan
+CA,CA-QC,CA-QC-CO,Les Collines-de-l'Outaouais
+CA,CA-QC,CA-QC-CP,Longueuil
+CA,CA-QC,CA-QC-CT,Coaticook
+CA,CA-QC,CA-QC-CV,Charlevoix
+CA,CA-QC,CA-QC-DA,D'Autray
+CA,CA-QC,CA-QC-DD,Le Domaine-du-Roy
+CA,CA-QC,CA-QC-DE,Lévis
+CA,CA-QC,CA-QC-DM,Deux-Montagnes
+CA,CA-QC,CA-QC-DR,La Haute-Gaspésie
+CA,CA-QC,CA-QC-DU,Drummond
+CA,CA-QC,CA-QC-ER,L'Érable
+CA,CA-QC,CA-QC-ET,Les Etchemins
+CA,CA-QC,CA-QC-FR,Trois-Rivières
+CA,CA-QC,CA-QC-FS,Le Fjord-du-Saguenay
+CA,CA-QC,CA-QC-GR,Le Granit
+CA,CA-QC,CA-QC-GSL,Le Golfe-du-Saint-Laurent
+CA,CA-QC,CA-QC-HC,La Haute-Côte-Nord
+CA,CA-QC,CA-QC-HF,Le Haut-Saint-François
+CA,CA-QC,CA-QC-HL,Le Haut-Saint-Laurent
+CA,CA-QC,CA-QC-HM,La Tuque
+CA,CA-QC,CA-QC-HR,Le Haut-Richelieu
+CA,CA-QC,CA-QC-HY,La Haute-Yamaska
+CA,CA-QC,CA-QC-IM,Les Îles-de-la-Madeleine
+CA,CA-QC,CA-QC-IO,L'Île-d'Orléans
+CA,CA-QC,CA-QC-IS,L'Islet
+CA,CA-QC,CA-QC-JAM,Jamésie
+CA,CA-QC,CA-QC-JC,La Jacques-Cartier
+CA,CA-QC,CA-QC-JN,Les Jardins-de-Napierville
+CA,CA-QC,CA-QC-JO,Joliette
+CA,CA-QC,CA-QC-KA,Kamouraska
+CA,CA-QC,CA-QC-LCH,Les Chenaux
+CA,CA-QC,CA-QC-LJ,Marguerite-D'Youville
+CA,CA-QC,CA-QC-LL,Les Laurentides
+CA,CA-QC,CA-QC-LO,Lotbinière
+CA,CA-QC,CA-QC-LS,Lac-Saint-Jean-Est
+CA,CA-QC,CA-QC-LV,Laval
+CA,CA-QC,CA-QC-MB,Minganie
+CA,CA-QC,CA-QC-MC,Maria-Chapdelaine
+CA,CA-QC,CA-QC-ME,Mékinac
+CA,CA-QC,CA-QC-MG,Memphrémagog
+CA,CA-QC,CA-QC-MI,La Mitis
+CA,CA-QC,CA-QC-MK,Les Maskoutains
+CA,CA-QC,CA-QC-ML,Mirabel
+CA,CA-QC,CA-QC-MM,Montmagny
+CA,CA-QC,CA-QC-MN,Manicouagan
+CA,CA-QC,CA-QC-MO,Montcalm
+CA,CA-QC,CA-QC-MP,La Matapédia
+CA,CA-QC,CA-QC-MR,Montréal
+CA,CA-QC,CA-QC-MS,Maskinongé
+CA,CA-QC,CA-QC-MT,La Matanie
+CA,CA-QC,CA-QC-MU,Les Moulins
+CA,CA-QC,CA-QC-MW,Matawinie
+CA,CA-QC,CA-QC-NB,La Nouvelle-Beauce
+CA,CA-QC,CA-QC-NQ,Kativik
+CA,CA-QC,CA-QC-NY,Nicolet-Yamaska
+CA,CA-QC,CA-QC-OU,Gatineau
+CA,CA-QC,CA-QC-PB,Le Rocher-Percé
+CA,CA-QC,CA-QC-PH,Les Pays-d'en-Haut
+CA,CA-QC,CA-QC-PN,Pontiac
+CA,CA-QC,CA-QC-PP,Papineau
+CA,CA-QC,CA-QC-PR,Portneuf
+CA,CA-QC,CA-QC-QU,Québec
+CA,CA-QC,CA-QC-RC,Robert-Cliche
+CA,CA-QC,CA-QC-RD,La Rivière-du-Nord
+CA,CA-QC,CA-QC-RL,Rivière-du-Loup
+CA,CA-QC,CA-QC-RM,Rimouski-Neigette
+CA,CA-QC,CA-QC-RN,Rouyn-Noranda
+CA,CA-QC,CA-QC-RS,Roussillon
+CA,CA-QC,CA-QC-RV,Rouville
+CA,CA-QC,CA-QC-SAG,Saguenay
+CA,CA-QC,CA-QC-SH,Sherbrooke
+CA,CA-QC,CA-QC-SR,Sept-Rivières
+CA,CA-QC,CA-QC-TB,Thérèse-De Blainville
+CA,CA-QC,CA-QC-TM,Témiscamingue
+CA,CA-QC,CA-QC-TT,Témiscouata
+CA,CA-QC,CA-QC-VF,Le Val-Saint-François
+CA,CA-QC,CA-QC-VG,La Vallée-de-la-Gatineau
+CA,CA-QC,CA-QC-VO,La Vallée-de-l'Or
+CA,CA-QC,CA-QC-VR,La Vallée-du-Richelieu
+CA,CA-QC,CA-QC-VS,Vaudreuil-Soulanges
+CA,CA-SK,CA-SK-EI,Swift Current
+CA,CA-SK,CA-SK-EL,Saskatoon
+CA,CA-SK,CA-SK-ET,La Ronge
+CA,CA-SK,CA-SK-FI,Melville
+CA,CA-SK,CA-SK-FN,Prince Albert
+CA,CA-SK,CA-SK-FO,Maple Creek
+CA,CA-SK,CA-SK-FT,Melfort
+CA,CA-SK,CA-SK-NI,Yorkton
+CA,CA-SK,CA-SK-ON,Estevan
+CA,CA-SK,CA-SK-SE,Moose Jaw
+CA,CA-SK,CA-SK-SI,Regina
+CA,CA-SK,CA-SK-SN,Lloydminster
+CA,CA-SK,CA-SK-ST,North Battleford
+CA,CA-SK,CA-SK-TE,Wynyard
+CA,CA-SK,CA-SK-TN,Kindersley
+CA,CA-SK,CA-SK-TR,Assiniboia
+CA,CA-SK,CA-SK-TV,Battleford
+CA,CA-SK,CA-SK-TW,Weyburn
+CA,CA-YT,CA-YT-YT,Yukon
+ES,ES-AN,ES-AN-AM,Almería
+ES,ES-AN,ES-AN-CD,Cádiz
+ES,ES-AN,ES-AN-CO,Córdoba
+ES,ES-AN,ES-AN-GD,Granada
+ES,ES-AN,ES-AN-HL,Huelva
+ES,ES-AN,ES-AN-JA,Jaén
+ES,ES-AN,ES-AN-MG,Málaga
+ES,ES-AN,ES-AN-SV,Sevilla
+ES,ES-AR,ES-AR-HS,Huesca
+ES,ES-AR,ES-AR-TE,Teruel
+ES,ES-AR,ES-AR-ZG,Zaragoza
+ES,ES-CL,ES-CL-AV,Ávila
+ES,ES-CL,ES-CL-BU,Burgos
+ES,ES-CL,ES-CL-LN,León
+ES,ES-CL,ES-CL-PL,Palencia
+ES,ES-CL,ES-CL-SG,Segovia
+ES,ES-CL,ES-CL-SL,Salamanca
+ES,ES-CL,ES-CL-SR,Soria
+ES,ES-CL,ES-CL-VD,Valladolid
+ES,ES-CL,ES-CL-ZM,Zamora
+ES,ES-CM,ES-CM-AB,Albacete
+ES,ES-CM,ES-CM-CR,Ciudad Real
+ES,ES-CM,ES-CM-CU,Cuenca
+ES,ES-CM,ES-CM-GJ,Guadalajara
+ES,ES-CM,ES-CM-TD,Toledo
+ES,ES-CT,ES-CT-BR,Barcelona
+ES,ES-CT,ES-CT-GN,Girona
+ES,ES-CT,ES-CT-LD,Lleida
+ES,ES-CT,ES-CT-TG,Tarragona
+ES,ES-EX,ES-EX-BD,Badajoz
+ES,ES-EX,ES-EX-CC,Cáceres
+ES,ES-GA,ES-GA-AC,A Coruña
+ES,ES-GA,ES-GA-LG,Lugo
+ES,ES-GA,ES-GA-OR,Ourense
+ES,ES-GA,ES-GA-PV,Pontevedra
+ES,ES-PV,ES-PV-AA,Araba
+ES,ES-PV,ES-PV-GP,Gipuzkoa
+ES,ES-PV,ES-PV-VZ,Bizkaia
+ES,ES-VC,ES-VC-AN,Alicante
+ES,ES-VC,ES-VC-CS,Castellón
+ES,ES-VC,ES-VC-VN,Valencia
+GB,GB-ENG,GB-ENG-BDF,Bedfordshire
+GB,GB-ENG,GB-ENG-BKM,Buckinghamshire
+GB,GB-ENG,GB-ENG-BNS,South Yorkshire
+GB,GB-ENG,GB-ENG-BRC,Berkshire
+GB,GB-ENG,GB-ENG-BST,Bristol
+GB,GB-ENG,GB-ENG-CAM,Cambridgeshire
+GB,GB-ENG,GB-ENG-CHS,Cheshire
+GB,GB-ENG,GB-ENG-CMA,Cumbria
+GB,GB-ENG,GB-ENG-CON,Cornwall
+GB,GB-ENG,GB-ENG-DBY,Derbyshire
+GB,GB-ENG,GB-ENG-DEV,Devon
+GB,GB-ENG,GB-ENG-DOR,Dorset
+GB,GB-ENG,GB-ENG-DUR,Durham
+GB,GB-ENG,GB-ENG-ERY,East Riding of Yorkshire
+GB,GB-ENG,GB-ENG-ESS,Essex
+GB,GB-ENG,GB-ENG-ESX,East Sussex
+GB,GB-ENG,GB-ENG-GAT,Tyne and Wear
+GB,GB-ENG,GB-ENG-GLS,Gloucestershire
+GB,GB-ENG,GB-ENG-HAL,Halton
+GB,GB-ENG,GB-ENG-HAM,Hampshire
+GB,GB-ENG,GB-ENG-HEF,Herefordshire
+GB,GB-ENG,GB-ENG-HRT,Hertfordshire
+GB,GB-ENG,GB-ENG-IOW,Isle of Wight
+GB,GB-ENG,GB-ENG-KEN,Kent
+GB,GB-ENG,GB-ENG-KWL,Merseyside
+GB,GB-ENG,GB-ENG-LAN,Lancashire
+GB,GB-ENG,GB-ENG-LEC,Leicestershire
+GB,GB-ENG,GB-ENG-LIN,Lincolnshire
+GB,GB-ENG,GB-ENG-LND,London
+GB,GB-ENG,GB-ENG-MAN,Manchester
+GB,GB-ENG,GB-ENG-NBL,Northumberland
+GB,GB-ENG,GB-ENG-NFK,Norfolk
+GB,GB-ENG,GB-ENG-NTH,Northamptonshire
+GB,GB-ENG,GB-ENG-NTT,Nottinghamshire
+GB,GB-ENG,GB-ENG-NYK,North Yorkshire
+GB,GB-ENG,GB-ENG-OXF,Oxfordshire
+GB,GB-ENG,GB-ENG-RUT,Rutland
+GB,GB-ENG,GB-ENG-SAW,West Midlands
+GB,GB-ENG,GB-ENG-SFK,Suffolk
+GB,GB-ENG,GB-ENG-SHR,Shropshire
+GB,GB-ENG,GB-ENG-SOM,Somerset
+GB,GB-ENG,GB-ENG-SRY,Surrey
+GB,GB-ENG,GB-ENG-STS,Staffordshire
+GB,GB-ENG,GB-ENG-STT,Stockton-on-Tees
+GB,GB-ENG,GB-ENG-WAR,Warwickshire
+GB,GB-ENG,GB-ENG-WIL,Wiltshire
+GB,GB-ENG,GB-ENG-WKF,West Yorkshire
+GB,GB-ENG,GB-ENG-WOR,Worcestershire
+GB,GB-ENG,GB-ENG-WSX,West Sussex
+GB,GB-NIR,GB-NIR-ANT,Antrim
+GB,GB-NIR,GB-NIR-ARM,Armagh
+GB,GB-NIR,GB-NIR-BFS,Belfast
+GB,GB-NIR,GB-NIR-DOW,Down
+GB,GB-NIR,GB-NIR-DRY,Derry
+GB,GB-NIR,GB-NIR-FER,Fermanagh
+GB,GB-NIR,GB-NIR-NYM,Newry and Mourne
+GB,GB-NIR,GB-NIR-OMH,Omagh
+GB,GB-SCT,GB-SCT-ABD,Aberdeenshire
+GB,GB-SCT,GB-SCT-ABE,Aberdeen
+GB,GB-SCT,GB-SCT-AGB,Argyll and Bute
+GB,GB-SCT,GB-SCT-ANS,Angus
+GB,GB-SCT,GB-SCT-CLK,Clackmannanshire
+GB,GB-SCT,GB-SCT-DGY,Dumfries and Galloway
+GB,GB-SCT,GB-SCT-DND,Dundee
+GB,GB-SCT,GB-SCT-EAY,East Ayrshire
+GB,GB-SCT,GB-SCT-EDH,Edinburgh
+GB,GB-SCT,GB-SCT-EDU,East Dunbartonshire
+GB,GB-SCT,GB-SCT-ELN,East Lothian
+GB,GB-SCT,GB-SCT-ELS,Eilean Siar
+GB,GB-SCT,GB-SCT-FAL,Falkirk
+GB,GB-SCT,GB-SCT-FIF,Fife
+GB,GB-SCT,GB-SCT-GLG,Glasgow
+GB,GB-SCT,GB-SCT-HLD,Highland
+GB,GB-SCT,GB-SCT-MLN,Midlothian
+GB,GB-SCT,GB-SCT-MRY,Moray
+GB,GB-SCT,GB-SCT-NAY,North Ayshire
+GB,GB-SCT,GB-SCT-NLK,North Lanarkshire
+GB,GB-SCT,GB-SCT-ORK,Orkney Islands
+GB,GB-SCT,GB-SCT-PKN,Perthshire and Kinross
+GB,GB-SCT,GB-SCT-RFW,Renfrewshire
+GB,GB-SCT,GB-SCT-SAY,South Ayrshire
+GB,GB-SCT,GB-SCT-SCB,Scottish Borders
+GB,GB-SCT,GB-SCT-SLK,South Lanarkshire
+GB,GB-SCT,GB-SCT-STG,Stirling
+GB,GB-SCT,GB-SCT-WDU,West Dunbartonshire
+GB,GB-SCT,GB-SCT-WLN,West Lothian
+GB,GB-SCT,GB-SCT-ZET,Shetland Islands
+GB,GB-WLS,GB-WLS-AGY,Anglesey
+GB,GB-WLS,GB-WLS-BGE,Bridgend
+GB,GB-WLS,GB-WLS-BGW,Blaenau Gwent
+GB,GB-WLS,GB-WLS-CAY,Caerphilly
+GB,GB-WLS,GB-WLS-CGN,Ceredigion
+GB,GB-WLS,GB-WLS-CMN,Carmarthenshire
+GB,GB-WLS,GB-WLS-CRF,Cardiff
+GB,GB-WLS,GB-WLS-CWY,Conwy
+GB,GB-WLS,GB-WLS-DEN,Denbighshire
+GB,GB-WLS,GB-WLS-FLN,Flintshire
+GB,GB-WLS,GB-WLS-GWN,Gwynedd
+GB,GB-WLS,GB-WLS-MON,Monmouthshire
+GB,GB-WLS,GB-WLS-MTY,Merthyr Tydfil
+GB,GB-WLS,GB-WLS-NTL,Neath Port Talbot
+GB,GB-WLS,GB-WLS-NWP,Newport
+GB,GB-WLS,GB-WLS-PEM,Pembrokeshire
+GB,GB-WLS,GB-WLS-POW,Powys
+GB,GB-WLS,GB-WLS-RCT,"Rhondda, Cynon, Taff"
+GB,GB-WLS,GB-WLS-SWA,Swansea
+GB,GB-WLS,GB-WLS-TOF,Torfaen
+GB,GB-WLS,GB-WLS-VGL,Vale of Glamorgan
+GB,GB-WLS,GB-WLS-WRX,Wrexham
+GQ,GQ-C,GQ-C-CS,Centro Sur
+GQ,GQ-C,GQ-C-KN,Kié-Ntem
+GQ,GQ-C,GQ-C-LI,Litoral
+GQ,GQ-C,GQ-C-WN,Wele-Nzas
+GQ,GQ-I,GQ-I-AN,Annobón
+GQ,GQ-I,GQ-I-BN,Bioko Norte
+GQ,GQ-I,GQ-I-BS,Bioko Sur
+ID,ID-IJ,ID-IJ-PA,Papua
+ID,ID-IJ,ID-IJ-PB,Papua Barat
+ID,ID-JW,ID-JW-BT,Banten
+ID,ID-JW,ID-JW-JB,Jawa Barat
+ID,ID-JW,ID-JW-JI,Jawa Timur
+ID,ID-JW,ID-JW-JK,Jakarta Raya
+ID,ID-JW,ID-JW-JT,Jawa Tengah
+ID,ID-JW,ID-JW-YO,Yogyakarta
+ID,ID-KA,ID-KA-KB,Kalimantan Barat
+ID,ID-KA,ID-KA-KI,Kalimantan Timur
+ID,ID-KA,ID-KA-KS,Kalimantan Selatan
+ID,ID-KA,ID-KA-KT,Kalimantan Tengah
+ID,ID-MA,ID-MA-MA,Maluku
+ID,ID-MA,ID-MA-MU,Maluku Utara
+ID,ID-NU,ID-NU-BA,Bali
+ID,ID-NU,ID-NU-NB,Nusa Tenggara Barat
+ID,ID-NU,ID-NU-NT,Nusa Tenggara Timur
+ID,ID-SL,ID-SL-GO,Gorontalo
+ID,ID-SL,ID-SL-SA,Sulawesi Utara
+ID,ID-SL,ID-SL-SG,Sulawesi Tenggara
+ID,ID-SL,ID-SL-SN,Sulawesi Selatan
+ID,ID-SL,ID-SL-SR,Sulawesi Barat
+ID,ID-SL,ID-SL-ST,Sulawesi Tengah
+ID,ID-SM,ID-SM-AC,Aceh
+ID,ID-SM,ID-SM-BB,Bangka Belitung
+ID,ID-SM,ID-SM-BE,Bengkulu
+ID,ID-SM,ID-SM-JA,Jambi
+ID,ID-SM,ID-SM-KR,Kepulauan Riau
+ID,ID-SM,ID-SM-LA,Lampung
+ID,ID-SM,ID-SM-RI,Riau
+ID,ID-SM,ID-SM-SB,Sumatera Barat
+ID,ID-SM,ID-SM-SS,Sumatera Selatan
+ID,ID-SM,ID-SM-SU,Sumatera Utara
+IE,IE-C,IE-C-GY,Galway
+IE,IE-C,IE-C-LM,Leitrim
+IE,IE-C,IE-C-MO,Mayo
+IE,IE-C,IE-C-RN,Roscommon
+IE,IE-C,IE-C-SO,Sligo
+IE,IE-L,IE-L-CW,Carlow
+IE,IE-L,IE-L-DN,Dublin
+IE,IE-L,IE-L-KE,Kildare
+IE,IE-L,IE-L-KK,Kilkenny
+IE,IE-L,IE-L-LD,Longford
+IE,IE-L,IE-L-LH,Louth
+IE,IE-L,IE-L-LS,Laoighis
+IE,IE-L,IE-L-MH,Meath
+IE,IE-L,IE-L-OY,Offaly
+IE,IE-L,IE-L-WH,Westmeath
+IE,IE-L,IE-L-WW,Wicklow
+IE,IE-L,IE-L-WX,Wexford
+IE,IE-M,IE-M-CE,Clare
+IE,IE-M,IE-M-CK,Cork
+IE,IE-M,IE-M-KY,Kerry
+IE,IE-M,IE-M-LK,Limerick
+IE,IE-M,IE-M-TY,Tipperary
+IE,IE-M,IE-M-WD,Waterford
+IE,IE-U,IE-U-CN,Cavan
+IE,IE-U,IE-U-DL,Donegal
+IE,IE-U,IE-U-MN,Monaghan
+IN,IN-AN,IN-AN-AN,North and Middle Andaman
+IN,IN-AN,IN-AN-AS,South Andaman
+IN,IN-AN,IN-AN-NI,Nicobar
+IN,IN-AP,IN-AP-AN,Anantapur
+IN,IN-AP,IN-AP-CH,Chittoor
+IN,IN-AP,IN-AP-CU,Kadapa
+IN,IN-AP,IN-AP-EG,East Godavari
+IN,IN-AP,IN-AP-GU,Guntur
+IN,IN-AP,IN-AP-KR,Krishna
+IN,IN-AP,IN-AP-KU,Kurnool
+IN,IN-AP,IN-AP-NE,Sri Potti Sriramulu Nellore
+IN,IN-AP,IN-AP-NI,Nizamabad
+IN,IN-AP,IN-AP-PR,Prakasam
+IN,IN-AP,IN-AP-SR,Srikakulam
+IN,IN-AP,IN-AP-VS,Visakhapatnam
+IN,IN-AP,IN-AP-VZ,Vizianagaram
+IN,IN-AP,IN-AP-WG,West Godavari
+IN,IN-AR,IN-AR-AN,Anjaw
+IN,IN-AR,IN-AR-CH,Changlang
+IN,IN-AR,IN-AR-EK,East Kameng
+IN,IN-AR,IN-AR-ES,East Siang
+IN,IN-AR,IN-AR-KK,Kurung Kumey
+IN,IN-AR,IN-AR-LB,Lower Subansiri
+IN,IN-AR,IN-AR-LD,Lower Dibang Valley
+IN,IN-AR,IN-AR-LO,Lohit
+IN,IN-AR,IN-AR-PA,Papum Pare
+IN,IN-AR,IN-AR-TA,Tawang
+IN,IN-AR,IN-AR-TI,Tirap
+IN,IN-AR,IN-AR-UB,Upper Subansiri
+IN,IN-AR,IN-AR-UD,Dibang Valley
+IN,IN-AR,IN-AR-US,Upper Siang
+IN,IN-AR,IN-AR-WK,West Kameng
+IN,IN-AR,IN-AR-WS,West Siang
+IN,IN-AS,IN-AS-BA,Barpeta
+IN,IN-AS,IN-AS-BK,Baksa
+IN,IN-AS,IN-AS-BO,Bongaigaon
+IN,IN-AS,IN-AS-CA,Cachar
+IN,IN-AS,IN-AS-CR,Chirang
+IN,IN-AS,IN-AS-DA,Darrang
+IN,IN-AS,IN-AS-DB,Dhubri
+IN,IN-AS,IN-AS-DI,Dibrugarh
+IN,IN-AS,IN-AS-DM,Dhemaji
+IN,IN-AS,IN-AS-GG,Golaghat
+IN,IN-AS,IN-AS-GP,Goalpara
+IN,IN-AS,IN-AS-HA,Hailakandi
+IN,IN-AS,IN-AS-JO,Jorhat
+IN,IN-AS,IN-AS-KA,Karbi Anglong
+IN,IN-AS,IN-AS-KK,Kokrajhar
+IN,IN-AS,IN-AS-KM,Kamrup Metropolitan
+IN,IN-AS,IN-AS-KP,Kamrup
+IN,IN-AS,IN-AS-KR,Karimganj
+IN,IN-AS,IN-AS-LA,Lakhimpur
+IN,IN-AS,IN-AS-MA,Marigaon
+IN,IN-AS,IN-AS-NC,Dima Hasao
+IN,IN-AS,IN-AS-NG,Nagaon
+IN,IN-AS,IN-AS-NL,Nalbari
+IN,IN-AS,IN-AS-SI,Sivasagar
+IN,IN-AS,IN-AS-SO,Sonitpur
+IN,IN-AS,IN-AS-TI,Tinsukia
+IN,IN-AS,IN-AS-UD,Udalguri
+IN,IN-BR,IN-BR-AR,Araria
+IN,IN-BR,IN-BR-AU,Aurangabad
+IN,IN-BR,IN-BR-AW,Arwal
+IN,IN-BR,IN-BR-BA,Banka
+IN,IN-BR,IN-BR-BE,Begusarai
+IN,IN-BR,IN-BR-BG,Bhagalpur
+IN,IN-BR,IN-BR-BJ,Bhojpur
+IN,IN-BR,IN-BR-BU,Buxar
+IN,IN-BR,IN-BR-DA,Darbhanga
+IN,IN-BR,IN-BR-EC,Purba Champaran
+IN,IN-BR,IN-BR-GA,Gaya
+IN,IN-BR,IN-BR-GO,Gopalganj
+IN,IN-BR,IN-BR-JA,Jamui
+IN,IN-BR,IN-BR-JE,Jehanabad
+IN,IN-BR,IN-BR-KH,Khagaria
+IN,IN-BR,IN-BR-KI,Kishanganj
+IN,IN-BR,IN-BR-KM,Kaimur (bhabua)
+IN,IN-BR,IN-BR-KT,Katihar
+IN,IN-BR,IN-BR-LA,Lakhisarai
+IN,IN-BR,IN-BR-MB,Madhubani
+IN,IN-BR,IN-BR-MG,Munger
+IN,IN-BR,IN-BR-MP,Madhepura
+IN,IN-BR,IN-BR-MZ,Muzaffarpur
+IN,IN-BR,IN-BR-NL,Nalanda
+IN,IN-BR,IN-BR-NW,Nawada
+IN,IN-BR,IN-BR-PA,Patna
+IN,IN-BR,IN-BR-PU,Purnia
+IN,IN-BR,IN-BR-RO,Rohtas
+IN,IN-BR,IN-BR-SH,Saharsa
+IN,IN-BR,IN-BR-SM,Samastipur
+IN,IN-BR,IN-BR-SO,Sheohar
+IN,IN-BR,IN-BR-SP,Sheikhpura
+IN,IN-BR,IN-BR-SR,Saran (chhapra)
+IN,IN-BR,IN-BR-ST,Sitamarhi
+IN,IN-BR,IN-BR-SU,Supaul
+IN,IN-BR,IN-BR-SW,Siwan
+IN,IN-BR,IN-BR-VA,Vaishali
+IN,IN-BR,IN-BR-WC,Pashchim Champaran
+IN,IN-CH,IN-CH-CH,Chandigarh
+IN,IN-CT,IN-CT-BA,Bastar
+IN,IN-CT,IN-CT-BI,Bilaspur
+IN,IN-CT,IN-CT-BJ,Bijapur
+IN,IN-CT,IN-CT-DA,Dakshin Bastar Dantewada
+IN,IN-CT,IN-CT-DH,Dhamtari
+IN,IN-CT,IN-CT-DU,Durg
+IN,IN-CT,IN-CT-JA,Jashpur
+IN,IN-CT,IN-CT-JC,Janjgir-champa
+IN,IN-CT,IN-CT-KB,Korba
+IN,IN-CT,IN-CT-KJ,Koriya
+IN,IN-CT,IN-CT-KK,Uttar Bastar Kanker
+IN,IN-CT,IN-CT-KW,Kabeerdham
+IN,IN-CT,IN-CT-MA,Mahasamund
+IN,IN-CT,IN-CT-NA,Narayanpur
+IN,IN-CT,IN-CT-RG,Raigarh
+IN,IN-CT,IN-CT-RN,Rajnandgaon
+IN,IN-CT,IN-CT-RP,Raipur
+IN,IN-CT,IN-CT-SU,Surguja
+IN,IN-DD,IN-DD-DA,Daman
+IN,IN-DD,IN-DD-DI,Diu
+IN,IN-DL,IN-DL-CE,Central Delhi
+IN,IN-DL,IN-DL-EA,East Delhi
+IN,IN-DL,IN-DL-ND,New Delhi
+IN,IN-DL,IN-DL-NE,North East Delhi
+IN,IN-DL,IN-DL-NO,North Delhi
+IN,IN-DL,IN-DL-NW,North West Delhi
+IN,IN-DL,IN-DL-SO,South Delhi
+IN,IN-DL,IN-DL-SW,South West Delhi
+IN,IN-DL,IN-DL-WE,West Delhi
+IN,IN-DN,IN-DN-DN,Dadra and Nagar Haveli
+IN,IN-GA,IN-GA-NG,North Goa
+IN,IN-GA,IN-GA-SG,South Goa
+IN,IN-GJ,IN-GJ-AH,Ahmadabad
+IN,IN-GJ,IN-GJ-AM,Amreli
+IN,IN-GJ,IN-GJ-AN,Anand
+IN,IN-GJ,IN-GJ-BK,Banas Kantha
+IN,IN-GJ,IN-GJ-BR,Bharuch
+IN,IN-GJ,IN-GJ-BV,Bhavnagar
+IN,IN-GJ,IN-GJ-DA,Dohad
+IN,IN-GJ,IN-GJ-DG,The Dangs
+IN,IN-GJ,IN-GJ-GA,Gandhinagar
+IN,IN-GJ,IN-GJ-JA,Jamnagar
+IN,IN-GJ,IN-GJ-JU,Junagadh
+IN,IN-GJ,IN-GJ-KA,Kachchh
+IN,IN-GJ,IN-GJ-KH,Kheda
+IN,IN-GJ,IN-GJ-MA,Mahesana
+IN,IN-GJ,IN-GJ-NR,Narmada
+IN,IN-GJ,IN-GJ-NV,Navsari
+IN,IN-GJ,IN-GJ-PA,Patan
+IN,IN-GJ,IN-GJ-PM,Panch Mahals
+IN,IN-GJ,IN-GJ-PO,Porbandar
+IN,IN-GJ,IN-GJ-RA,Rajkot
+IN,IN-GJ,IN-GJ-SK,Sabar Kantha
+IN,IN-GJ,IN-GJ-SN,Surendranagar
+IN,IN-GJ,IN-GJ-ST,Surat
+IN,IN-GJ,IN-GJ-TA,Tapi
+IN,IN-GJ,IN-GJ-VD,Vadodara
+IN,IN-GJ,IN-GJ-VL,Valsad
+IN,IN-HP,IN-HP-BI,Bilaspur
+IN,IN-HP,IN-HP-CH,Chamba
+IN,IN-HP,IN-HP-HA,Hamirpur
+IN,IN-HP,IN-HP-KA,Kangra
+IN,IN-HP,IN-HP-KI,Kinnaur
+IN,IN-HP,IN-HP-KU,Kullu
+IN,IN-HP,IN-HP-LS,Lahul and Spiti
+IN,IN-HP,IN-HP-MA,Mandi
+IN,IN-HP,IN-HP-SH,Shimla
+IN,IN-HP,IN-HP-SI,Sirmaur
+IN,IN-HP,IN-HP-SO,Solan
+IN,IN-HP,IN-HP-UN,Una
+IN,IN-HR,IN-HR-AM,Ambala
+IN,IN-HR,IN-HR-BH,Bhiwani
+IN,IN-HR,IN-HR-FR,Faridabad
+IN,IN-HR,IN-HR-FT,Fatehabad
+IN,IN-HR,IN-HR-GU,Gurgaon
+IN,IN-HR,IN-HR-HI,Hisar
+IN,IN-HR,IN-HR-JH,Jhajjar
+IN,IN-HR,IN-HR-JI,Jind
+IN,IN-HR,IN-HR-KR,Karnal
+IN,IN-HR,IN-HR-KT,Kaithal
+IN,IN-HR,IN-HR-KU,Kurukshetra
+IN,IN-HR,IN-HR-MA,Mahendragarh
+IN,IN-HR,IN-HR-ME,Mewat
+IN,IN-HR,IN-HR-PK,Panchkula
+IN,IN-HR,IN-HR-PL,Palwal
+IN,IN-HR,IN-HR-PP,Panipat
+IN,IN-HR,IN-HR-RE,Rewari
+IN,IN-HR,IN-HR-RO,Rohtak
+IN,IN-HR,IN-HR-SI,Sirsa
+IN,IN-HR,IN-HR-SO,Sonipat
+IN,IN-HR,IN-HR-YN,Yamunanagar
+IN,IN-JH,IN-JH-BO,Bokaro
+IN,IN-JH,IN-JH-CH,Chatra
+IN,IN-JH,IN-JH-DE,Deoghar
+IN,IN-JH,IN-JH-DH,Dhanbad
+IN,IN-JH,IN-JH-DU,Dumka
+IN,IN-JH,IN-JH-ES,Purbi Singhbhum
+IN,IN-JH,IN-JH-GA,Garhwa
+IN,IN-JH,IN-JH-GI,Giridih
+IN,IN-JH,IN-JH-GO,Godda
+IN,IN-JH,IN-JH-GU,Gumla
+IN,IN-JH,IN-JH-HA,Hazaribagh
+IN,IN-JH,IN-JH-JA,Jamtara
+IN,IN-JH,IN-JH-KH,Khunti
+IN,IN-JH,IN-JH-KO,Kodarma
+IN,IN-JH,IN-JH-LA,Latehar
+IN,IN-JH,IN-JH-LO,Lohardaga
+IN,IN-JH,IN-JH-PK,Pakur
+IN,IN-JH,IN-JH-PL,Palamu
+IN,IN-JH,IN-JH-RA,Ranchi
+IN,IN-JH,IN-JH-RM,Ramgarh
+IN,IN-JH,IN-JH-SA,Sahibganj
+IN,IN-JH,IN-JH-SI,Simdega
+IN,IN-JH,IN-JH-SR,Saraikela-kharsawan
+IN,IN-JH,IN-JH-WS,Pashchimi Singhbhum
+IN,IN-JK,IN-JK-AN,Anantnag
+IN,IN-JK,IN-JK-BD,Badgam
+IN,IN-JK,IN-JK-BN,Bandipore
+IN,IN-JK,IN-JK-BR,Baramula
+IN,IN-JK,IN-JK-DO,Doda
+IN,IN-JK,IN-JK-GN,Ganderbal
+IN,IN-JK,IN-JK-JA,Jammu
+IN,IN-JK,IN-JK-KL,Kulgam
+IN,IN-JK,IN-JK-KM,Pakistan-administered Kashmir
+IN,IN-JK,IN-JK-KR,Kargil
+IN,IN-JK,IN-JK-KS,Kishtwar
+IN,IN-JK,IN-JK-KT,Kathua
+IN,IN-JK,IN-JK-KU,Kupwara
+IN,IN-JK,IN-JK-LE,Leh (ladakh)
+IN,IN-JK,IN-JK-PO,Punch
+IN,IN-JK,IN-JK-PU,Pulwama
+IN,IN-JK,IN-JK-RA,Rajouri
+IN,IN-JK,IN-JK-RE,Reasi
+IN,IN-JK,IN-JK-RM,Ramban
+IN,IN-JK,IN-JK-SA,Samba
+IN,IN-JK,IN-JK-SH,Shupiyan
+IN,IN-JK,IN-JK-SR,Srinagar
+IN,IN-JK,IN-JK-UD,Udhampur
+IN,IN-KA,IN-KA-BD,Bidar
+IN,IN-KA,IN-KA-BG,Belgaum
+IN,IN-KA,IN-KA-BJ,Bijapur
+IN,IN-KA,IN-KA-BK,Bagalkot
+IN,IN-KA,IN-KA-BL,Bellary
+IN,IN-KA,IN-KA-BN,Bangalore
+IN,IN-KA,IN-KA-BR,Bangalore Rural
+IN,IN-KA,IN-KA-CH,Chikkaballapura
+IN,IN-KA,IN-KA-CJ,Chamrajnagar
+IN,IN-KA,IN-KA-CK,Chikmagalur
+IN,IN-KA,IN-KA-CT,Chitradurga
+IN,IN-KA,IN-KA-DA,Davanagere
+IN,IN-KA,IN-KA-DH,Dharwad
+IN,IN-KA,IN-KA-DK,Dakshina Kannada
+IN,IN-KA,IN-KA-GA,Gadag
+IN,IN-KA,IN-KA-GU,Gulbarga
+IN,IN-KA,IN-KA-HS,Hassan
+IN,IN-KA,IN-KA-HV,Haveri
+IN,IN-KA,IN-KA-KD,Kodagu
+IN,IN-KA,IN-KA-KL,Kolar
+IN,IN-KA,IN-KA-KP,Koppal
+IN,IN-KA,IN-KA-MA,Mandya
+IN,IN-KA,IN-KA-MY,Mysore
+IN,IN-KA,IN-KA-RA,Raichur
+IN,IN-KA,IN-KA-RM,Ramanagara
+IN,IN-KA,IN-KA-SH,Shimoga
+IN,IN-KA,IN-KA-TU,Tumkur
+IN,IN-KA,IN-KA-UD,Udupi
+IN,IN-KA,IN-KA-UK,Uttara Kannada
+IN,IN-KA,IN-KA-YD,Yadgir
+IN,IN-KL,IN-KL-AL,Alappuzha
+IN,IN-KL,IN-KL-ER,Ernakulam
+IN,IN-KL,IN-KL-ID,Idukki
+IN,IN-KL,IN-KL-KL,Kollam
+IN,IN-KL,IN-KL-KN,Kannur
+IN,IN-KL,IN-KL-KS,Kasaragod
+IN,IN-KL,IN-KL-KT,Kottayam
+IN,IN-KL,IN-KL-KZ,Kozhikode
+IN,IN-KL,IN-KL-MA,Malappuram
+IN,IN-KL,IN-KL-PL,Palakkad
+IN,IN-KL,IN-KL-PT,Pathanamthitta
+IN,IN-KL,IN-KL-TS,Thrissur
+IN,IN-KL,IN-KL-TV,Thiruvananthapuram
+IN,IN-KL,IN-KL-WA,Wayanad
+IN,IN-LD,IN-LD-LD,Lakshadweep
+IN,IN-MH,IN-MH-AH,Ahmadnagar
+IN,IN-MH,IN-MH-AK,Akola
+IN,IN-MH,IN-MH-AM,Amravati
+IN,IN-MH,IN-MH-AU,Aurangabad
+IN,IN-MH,IN-MH-BH,Bhandara
+IN,IN-MH,IN-MH-BI,Bid
+IN,IN-MH,IN-MH-BU,Buldana
+IN,IN-MH,IN-MH-CH,Chandrapur
+IN,IN-MH,IN-MH-DH,Dhule
+IN,IN-MH,IN-MH-GA,Garhchiroli
+IN,IN-MH,IN-MH-GO,Gondiya
+IN,IN-MH,IN-MH-HI,Hingoli
+IN,IN-MH,IN-MH-JG,Jalgaon
+IN,IN-MH,IN-MH-JN,Jalna
+IN,IN-MH,IN-MH-KO,Kolhapur
+IN,IN-MH,IN-MH-LA,Latur
+IN,IN-MH,IN-MH-MC,Mumbai
+IN,IN-MH,IN-MH-MS,Mumbai Suburban
+IN,IN-MH,IN-MH-NB,Nandurbar
+IN,IN-MH,IN-MH-ND,Nanded
+IN,IN-MH,IN-MH-NG,Nagpur
+IN,IN-MH,IN-MH-NS,Nashik
+IN,IN-MH,IN-MH-OS,Osmanabad
+IN,IN-MH,IN-MH-PA,Parbhani
+IN,IN-MH,IN-MH-PU,Pune
+IN,IN-MH,IN-MH-RG,Raigarh
+IN,IN-MH,IN-MH-RT,Ratnagiri
+IN,IN-MH,IN-MH-SI,Sindhudurg
+IN,IN-MH,IN-MH-SN,Sangli
+IN,IN-MH,IN-MH-SO,Solapur
+IN,IN-MH,IN-MH-ST,Satara
+IN,IN-MH,IN-MH-TH,Thane
+IN,IN-MH,IN-MH-WR,Wardha
+IN,IN-MH,IN-MH-WS,Washim
+IN,IN-MH,IN-MH-YA,Yavatmal
+IN,IN-ML,IN-ML-EG,East Garo Hills
+IN,IN-ML,IN-ML-EK,East Khasi Hills
+IN,IN-ML,IN-ML-JH,Jaintia Hills
+IN,IN-ML,IN-ML-RB,Ri Bhoi
+IN,IN-ML,IN-ML-SG,South Garo Hills
+IN,IN-ML,IN-ML-WG,West Garo Hills
+IN,IN-ML,IN-ML-WK,West Khasi Hills
+IN,IN-MN,IN-MN-BI,Bishnupur
+IN,IN-MN,IN-MN-CC,Churachandpur
+IN,IN-MN,IN-MN-CD,Chandel
+IN,IN-MN,IN-MN-EI,Imphal East
+IN,IN-MN,IN-MN-SE,Senapati
+IN,IN-MN,IN-MN-TA,Tamenglong
+IN,IN-MN,IN-MN-TH,Thoubal
+IN,IN-MN,IN-MN-UK,Ukhrul
+IN,IN-MN,IN-MN-WI,Imphal West
+IN,IN-MP,IN-MP-AL,Alirajpur
+IN,IN-MP,IN-MP-AN,Anuppur
+IN,IN-MP,IN-MP-AS,Ashoknagar
+IN,IN-MP,IN-MP-BD,Bhind
+IN,IN-MP,IN-MP-BE,Betul
+IN,IN-MP,IN-MP-BL,Balaghat
+IN,IN-MP,IN-MP-BP,Bhopal
+IN,IN-MP,IN-MP-BR,Barwani
+IN,IN-MP,IN-MP-BU,Burhanpur
+IN,IN-MP,IN-MP-CN,Chhindwara
+IN,IN-MP,IN-MP-CT,Chhatarpur
+IN,IN-MP,IN-MP-DE,Dewas
+IN,IN-MP,IN-MP-DH,Dhar
+IN,IN-MP,IN-MP-DI,Dindori
+IN,IN-MP,IN-MP-DM,Damoh
+IN,IN-MP,IN-MP-DT,Datia
+IN,IN-MP,IN-MP-EN,East Nimar
+IN,IN-MP,IN-MP-GU,Guna
+IN,IN-MP,IN-MP-GW,Gwalior
+IN,IN-MP,IN-MP-HA,Harda
+IN,IN-MP,IN-MP-HO,Hoshangabad
+IN,IN-MP,IN-MP-IN,Indore
+IN,IN-MP,IN-MP-JA,Jabalpur
+IN,IN-MP,IN-MP-JH,Jhabua
+IN,IN-MP,IN-MP-KA,Katni
+IN,IN-MP,IN-MP-ML,Mandla
+IN,IN-MP,IN-MP-MO,Morena
+IN,IN-MP,IN-MP-MS,Mandsaur
+IN,IN-MP,IN-MP-NA,Narsimhapur
+IN,IN-MP,IN-MP-NE,Neemuch
+IN,IN-MP,IN-MP-PA,Panna
+IN,IN-MP,IN-MP-RE,Rewa
+IN,IN-MP,IN-MP-RG,Rajgarh
+IN,IN-MP,IN-MP-RL,Ratlam
+IN,IN-MP,IN-MP-RS,Raisen
+IN,IN-MP,IN-MP-SG,Sagar
+IN,IN-MP,IN-MP-SH,Shahdol
+IN,IN-MP,IN-MP-SI,Sidhi
+IN,IN-MP,IN-MP-SJ,Shajapur
+IN,IN-MP,IN-MP-SN,Singrauli
+IN,IN-MP,IN-MP-SO,Seoni
+IN,IN-MP,IN-MP-SP,Sheopur
+IN,IN-MP,IN-MP-SR,Sehore
+IN,IN-MP,IN-MP-ST,Satna
+IN,IN-MP,IN-MP-SV,Shivpuri
+IN,IN-MP,IN-MP-TI,Tikamgarh
+IN,IN-MP,IN-MP-UJ,Ujjain
+IN,IN-MP,IN-MP-UM,Umaria
+IN,IN-MP,IN-MP-VI,Vidisha
+IN,IN-MP,IN-MP-WN,West Nimar
+IN,IN-MZ,IN-MZ-AI,Aizawl
+IN,IN-MZ,IN-MZ-CH,Champhai
+IN,IN-MZ,IN-MZ-KO,Kolasib
+IN,IN-MZ,IN-MZ-LA,Lawangtlai
+IN,IN-MZ,IN-MZ-LU,Lunglei
+IN,IN-MZ,IN-MZ-MA,Mamit
+IN,IN-MZ,IN-MZ-SA,Saiha
+IN,IN-MZ,IN-MZ-SE,Serchhip
+IN,IN-NL,IN-NL-DI,Dimapur
+IN,IN-NL,IN-NL-KI,Kiphire
+IN,IN-NL,IN-NL-KO,Kohima
+IN,IN-NL,IN-NL-LO,Longleng
+IN,IN-NL,IN-NL-MK,Mokokchung
+IN,IN-NL,IN-NL-MN,Mon
+IN,IN-NL,IN-NL-PE,Peren
+IN,IN-NL,IN-NL-PH,Phek
+IN,IN-NL,IN-NL-TU,Tuensang
+IN,IN-NL,IN-NL-WO,Wokha
+IN,IN-NL,IN-NL-ZU,Zunheboto
+IN,IN-OR,IN-OR-AN,Anugul
+IN,IN-OR,IN-OR-BD,Bauda
+IN,IN-OR,IN-OR-BH,Bhadrak
+IN,IN-OR,IN-OR-BL,Balangir
+IN,IN-OR,IN-OR-BR,Bargarh
+IN,IN-OR,IN-OR-BW,Baleshwar
+IN,IN-OR,IN-OR-CU,Cuttack
+IN,IN-OR,IN-OR-DE,Debagarh
+IN,IN-OR,IN-OR-DH,Dhenkanal
+IN,IN-OR,IN-OR-GN,Ganjam
+IN,IN-OR,IN-OR-GP,Gajapati
+IN,IN-OR,IN-OR-JH,Jharsuguda
+IN,IN-OR,IN-OR-JP,Jajapur
+IN,IN-OR,IN-OR-JS,Jagatsinghapur
+IN,IN-OR,IN-OR-KH,Khordha
+IN,IN-OR,IN-OR-KJ,Kendujhar
+IN,IN-OR,IN-OR-KL,Kalahandi
+IN,IN-OR,IN-OR-KN,Kandhamal
+IN,IN-OR,IN-OR-KO,Koraput
+IN,IN-OR,IN-OR-KP,Kendrapara
+IN,IN-OR,IN-OR-ML,Malkangiri
+IN,IN-OR,IN-OR-MY,Mayurbhanj
+IN,IN-OR,IN-OR-NB,Nabarangapur
+IN,IN-OR,IN-OR-NU,Nuapada
+IN,IN-OR,IN-OR-NY,Nayagarh
+IN,IN-OR,IN-OR-PU,Puri
+IN,IN-OR,IN-OR-RA,Rayagada
+IN,IN-OR,IN-OR-SA,Sambalpur
+IN,IN-OR,IN-OR-SO,Subarnapur
+IN,IN-OR,IN-OR-SU,Sundargarh
+IN,IN-PB,IN-PB-AM,Amritsar
+IN,IN-PB,IN-PB-BA,Bathinda
+IN,IN-PB,IN-PB-BR,Barnala
+IN,IN-PB,IN-PB-FI,Firozpur
+IN,IN-PB,IN-PB-FR,Faridkot
+IN,IN-PB,IN-PB-FT,Fatehgarh Sahib
+IN,IN-PB,IN-PB-GU,Gurdaspur
+IN,IN-PB,IN-PB-HO,Hoshiarpur
+IN,IN-PB,IN-PB-JA,Jalandhar
+IN,IN-PB,IN-PB-KA,Kapurthala
+IN,IN-PB,IN-PB-LU,Ludhiana
+IN,IN-PB,IN-PB-MA,Mansa
+IN,IN-PB,IN-PB-MO,Moga
+IN,IN-PB,IN-PB-MU,Muktsar
+IN,IN-PB,IN-PB-NS,Shahid Bhagat Singh Nagar
+IN,IN-PB,IN-PB-PA,Patiala
+IN,IN-PB,IN-PB-RU,Rupnagar
+IN,IN-PB,IN-PB-SA,Sangrur
+IN,IN-PB,IN-PB-SH,Sahibzada Ajit Singh Nagar
+IN,IN-PB,IN-PB-TA,Tarn Taran
+IN,IN-PY,IN-PY-KA,Karaikal
+IN,IN-PY,IN-PY-MA,Mahe
+IN,IN-PY,IN-PY-PO,Puducherry
+IN,IN-PY,IN-PY-YA,Yanam
+IN,IN-RJ,IN-RJ-AJ,Ajmer
+IN,IN-RJ,IN-RJ-AL,Alwar
+IN,IN-RJ,IN-RJ-BI,Bikaner
+IN,IN-RJ,IN-RJ-BM,Barmer
+IN,IN-RJ,IN-RJ-BN,Banswara
+IN,IN-RJ,IN-RJ-BP,Bharatpur
+IN,IN-RJ,IN-RJ-BR,Baran
+IN,IN-RJ,IN-RJ-BU,Bundi
+IN,IN-RJ,IN-RJ-BW,Bhilwara
+IN,IN-RJ,IN-RJ-CR,Churu
+IN,IN-RJ,IN-RJ-CT,Chittaurgarh
+IN,IN-RJ,IN-RJ-DA,Dausa
+IN,IN-RJ,IN-RJ-DH,Dhaulpur
+IN,IN-RJ,IN-RJ-DU,Dungarpur
+IN,IN-RJ,IN-RJ-GA,Ganganagar
+IN,IN-RJ,IN-RJ-HA,Hanumangarh
+IN,IN-RJ,IN-RJ-JJ,Jhunjhunun
+IN,IN-RJ,IN-RJ-JL,Jalor
+IN,IN-RJ,IN-RJ-JO,Jodhpur
+IN,IN-RJ,IN-RJ-JP,Jaipur
+IN,IN-RJ,IN-RJ-JS,Jaisalmer
+IN,IN-RJ,IN-RJ-JW,Jhalawar
+IN,IN-RJ,IN-RJ-KA,Karauli
+IN,IN-RJ,IN-RJ-KO,Kota
+IN,IN-RJ,IN-RJ-NA,Nagaur
+IN,IN-RJ,IN-RJ-PA,Pali
+IN,IN-RJ,IN-RJ-PR,Pratapgarh
+IN,IN-RJ,IN-RJ-RA,Rajsamand
+IN,IN-RJ,IN-RJ-SK,Sikar
+IN,IN-RJ,IN-RJ-SM,Sawai Madhopur
+IN,IN-RJ,IN-RJ-SR,Sirohi
+IN,IN-RJ,IN-RJ-TO,Tonk
+IN,IN-RJ,IN-RJ-UD,Udaipur
+IN,IN-SK,IN-SK-ES,East Sikkim
+IN,IN-SK,IN-SK-NS,North Sikkim
+IN,IN-SK,IN-SK-SS,South Sikkim
+IN,IN-SK,IN-SK-WS,West Sikkim
+IN,IN-TN,IN-TN-AR,Ariyalur
+IN,IN-TN,IN-TN-CH,Chennai
+IN,IN-TN,IN-TN-CO,Coimbatore
+IN,IN-TN,IN-TN-CU,Cuddalore
+IN,IN-TN,IN-TN-DH,Dharmapuri
+IN,IN-TN,IN-TN-DI,Dindigul
+IN,IN-TN,IN-TN-ER,Erode
+IN,IN-TN,IN-TN-KC,Kancheepuram
+IN,IN-TN,IN-TN-KK,Kanniyakumari
+IN,IN-TN,IN-TN-KR,Karur
+IN,IN-TN,IN-TN-KS,Krishnagiri
+IN,IN-TN,IN-TN-MA,Madurai
+IN,IN-TN,IN-TN-NG,Nagappattinam
+IN,IN-TN,IN-TN-NI,The Nilgiris
+IN,IN-TN,IN-TN-NM,Namakkal
+IN,IN-TN,IN-TN-PE,Perambalur
+IN,IN-TN,IN-TN-PU,Pudukkottai
+IN,IN-TN,IN-TN-RA,Ramanathapuram
+IN,IN-TN,IN-TN-SA,Salem
+IN,IN-TN,IN-TN-SI,Sivaganga
+IN,IN-TN,IN-TN-TC,Tiruchirappalli
+IN,IN-TN,IN-TN-TH,Theni
+IN,IN-TN,IN-TN-TI,Tirunelveli
+IN,IN-TN,IN-TN-TJ,Thanjavur
+IN,IN-TN,IN-TN-TK,Thoothukkudi
+IN,IN-TN,IN-TN-TL,Thiruvallur
+IN,IN-TN,IN-TN-TP,Tiruppur
+IN,IN-TN,IN-TN-TR,Thiruvarur
+IN,IN-TN,IN-TN-TV,Tiruvannamalai
+IN,IN-TN,IN-TN-VE,Vellore
+IN,IN-TN,IN-TN-VL,Viluppuram
+IN,IN-TN,IN-TN-VR,Virudunagar
+IN,IN-TR,IN-TR-DH,Dhalai
+IN,IN-TR,IN-TR-NT,North Tripura
+IN,IN-TR,IN-TR-ST,South Tripura
+IN,IN-TR,IN-TR-WT,West Tripura
+IN,IN-TS,IN-TS-AD,Adilabad
+IN,IN-TS,IN-TS-HY,Hyderabad
+IN,IN-TS,IN-TS-KA,Karimnagar
+IN,IN-TS,IN-TS-KH,Khammam
+IN,IN-TS,IN-TS-MA,Mahbubnagar
+IN,IN-TS,IN-TS-ME,Medak
+IN,IN-TS,IN-TS-NA,Nalgonda
+IN,IN-TS,IN-TS-RA,Rangareddy
+IN,IN-TS,IN-TS-WA,Warangal
+IN,IN-UL,IN-UL-AL,Almora
+IN,IN-UL,IN-UL-BA,Bageshwar
+IN,IN-UL,IN-UL-CL,Chamoli
+IN,IN-UL,IN-UL-CP,Champawat
+IN,IN-UL,IN-UL-DD,Dehradun
+IN,IN-UL,IN-UL-HA,Hardwar
+IN,IN-UL,IN-UL-NA,Nainital
+IN,IN-UL,IN-UL-PG,Garhwal
+IN,IN-UL,IN-UL-PI,Pithoragarh
+IN,IN-UL,IN-UL-RP,Rudraprayag
+IN,IN-UL,IN-UL-TG,Tehri Garhwal
+IN,IN-UL,IN-UL-US,Udham Singh Nagar
+IN,IN-UL,IN-UL-UT,Uttarkashi
+IN,IN-UP,IN-UP-AG,Agra
+IN,IN-UP,IN-UP-AH,Allahabad
+IN,IN-UP,IN-UP-AL,Aligarh
+IN,IN-UP,IN-UP-AN,Ambedkar Nagar
+IN,IN-UP,IN-UP-AU,Auraiya
+IN,IN-UP,IN-UP-AZ,Azamgarh
+IN,IN-UP,IN-UP-BB,Bara Banki
+IN,IN-UP,IN-UP-BD,Budaun
+IN,IN-UP,IN-UP-BG,Baghpat
+IN,IN-UP,IN-UP-BH,Bahraich
+IN,IN-UP,IN-UP-BI,Bijnor
+IN,IN-UP,IN-UP-BL,Ballia
+IN,IN-UP,IN-UP-BN,Banda
+IN,IN-UP,IN-UP-BP,Balrampur
+IN,IN-UP,IN-UP-BR,Bareilly
+IN,IN-UP,IN-UP-BS,Basti
+IN,IN-UP,IN-UP-BU,Bulandshahr
+IN,IN-UP,IN-UP-CD,Chandauli
+IN,IN-UP,IN-UP-CT,Chitrakoot
+IN,IN-UP,IN-UP-DE,Deoria
+IN,IN-UP,IN-UP-ET,Etah
+IN,IN-UP,IN-UP-EW,Etawah
+IN,IN-UP,IN-UP-FI,Firozabad
+IN,IN-UP,IN-UP-FR,Farrukhabad
+IN,IN-UP,IN-UP-FT,Fatehpur
+IN,IN-UP,IN-UP-FZ,Faizabad
+IN,IN-UP,IN-UP-GB,Gautam Buddha Nagar
+IN,IN-UP,IN-UP-GN,Gonda
+IN,IN-UP,IN-UP-GP,Ghazipur
+IN,IN-UP,IN-UP-GR,Gorakhpur
+IN,IN-UP,IN-UP-GZ,Ghaziabad
+IN,IN-UP,IN-UP-HM,Hamirpur
+IN,IN-UP,IN-UP-HR,Hardoi
+IN,IN-UP,IN-UP-HT,Mahamaya Nagar
+IN,IN-UP,IN-UP-JH,Jhansi
+IN,IN-UP,IN-UP-JL,Jalaun
+IN,IN-UP,IN-UP-JP,Jyotiba Phule Nagar
+IN,IN-UP,IN-UP-JU,Jaunpur
+IN,IN-UP,IN-UP-KD,Kanpur Dehat
+IN,IN-UP,IN-UP-KJ,Kannauj
+IN,IN-UP,IN-UP-KM,Kansiram Nagar
+IN,IN-UP,IN-UP-KN,Kanpur Nagar
+IN,IN-UP,IN-UP-KS,Kaushambi
+IN,IN-UP,IN-UP-KU,Kushinagar
+IN,IN-UP,IN-UP-LA,Lalitpur
+IN,IN-UP,IN-UP-LK,Kheri
+IN,IN-UP,IN-UP-LU,Lucknow
+IN,IN-UP,IN-UP-MA,Mau
+IN,IN-UP,IN-UP-ME,Meerut
+IN,IN-UP,IN-UP-MG,Maharajganj
+IN,IN-UP,IN-UP-MH,Mahoba
+IN,IN-UP,IN-UP-MI,Mirzapur
+IN,IN-UP,IN-UP-MO,Moradabad
+IN,IN-UP,IN-UP-MP,Mainpuri
+IN,IN-UP,IN-UP-MT,Mathura
+IN,IN-UP,IN-UP-MU,Muzaffarnagar
+IN,IN-UP,IN-UP-PI,Pilibhit
+IN,IN-UP,IN-UP-PR,Pratapgarh
+IN,IN-UP,IN-UP-RA,Rampur
+IN,IN-UP,IN-UP-RB,Rae Bareli
+IN,IN-UP,IN-UP-SA,Saharanpur
+IN,IN-UP,IN-UP-SI,Sitapur
+IN,IN-UP,IN-UP-SJ,Shahjahanpur
+IN,IN-UP,IN-UP-SK,Sant Kabir Nagar
+IN,IN-UP,IN-UP-SN,Siddharth Nagar
+IN,IN-UP,IN-UP-SO,Sonbhadra
+IN,IN-UP,IN-UP-SR,Sant Ravi Das Nagar(bhadohi)
+IN,IN-UP,IN-UP-SU,Sultanpur
+IN,IN-UP,IN-UP-SV,Shrawasti
+IN,IN-UP,IN-UP-UN,Unnao
+IN,IN-UP,IN-UP-VA,Varanasi
+IN,IN-WB,IN-WB-BI,Birbhum
+IN,IN-WB,IN-WB-BN,Bankura
+IN,IN-WB,IN-WB-BR,Barddhaman
+IN,IN-WB,IN-WB-DA,Darjiling
+IN,IN-WB,IN-WB-DD,Dakshin Dinajpur
+IN,IN-WB,IN-WB-HG,Hooghly
+IN,IN-WB,IN-WB-HR,Haora
+IN,IN-WB,IN-WB-JA,Jalpaiguri
+IN,IN-WB,IN-WB-KB,Koch Bihar
+IN,IN-WB,IN-WB-KO,Kolkata
+IN,IN-WB,IN-WB-MA,Maldah
+IN,IN-WB,IN-WB-ME,Purba Medinipur
+IN,IN-WB,IN-WB-MU,Murshidabad
+IN,IN-WB,IN-WB-MW,Pashchim Medinipur
+IN,IN-WB,IN-WB-NA,Nadia
+IN,IN-WB,IN-WB-PN,North 24 Parganas
+IN,IN-WB,IN-WB-PS,South 24 Parganas
+IN,IN-WB,IN-WB-PU,Puruliya
+IN,IN-WB,IN-WB-UD,Uttar Dinajpur
+NZ,NZ-AUK,NZ-AUK-004,Rodney District
+NZ,NZ-AUK,NZ-AUK-005,North Shore City
+NZ,NZ-AUK,NZ-AUK-006,Waitakere City
+NZ,NZ-AUK,NZ-AUK-007,Auckland City
+NZ,NZ-AUK,NZ-AUK-008,Manukau City
+NZ,NZ-AUK,NZ-AUK-009,Papakura District
+NZ,NZ-AUK,NZ-AUK-010,Franklin District
+NZ,NZ-BOP,NZ-BOP-021,Taupo District
+NZ,NZ-BOP,NZ-BOP-022,Western Bay of Plenty District
+NZ,NZ-BOP,NZ-BOP-023,Tauranga City
+NZ,NZ-BOP,NZ-BOP-024,Rotorua District
+NZ,NZ-BOP,NZ-BOP-025,Whakatane District
+NZ,NZ-BOP,NZ-BOP-026,Kawerau District
+NZ,NZ-BOP,NZ-BOP-027,Opotiki District
+NZ,NZ-CAN,NZ-CAN-054,Kaikoura District
+NZ,NZ-CAN,NZ-CAN-058,Hurunui District
+NZ,NZ-CAN,NZ-CAN-059,Waimakariri District
+NZ,NZ-CAN,NZ-CAN-060,Christchurch City
+NZ,NZ-CAN,NZ-CAN-062,Selwyn District
+NZ,NZ-CAN,NZ-CAN-063,Ashburton District
+NZ,NZ-CAN,NZ-CAN-064,Timaru District
+NZ,NZ-CAN,NZ-CAN-065,Mackenzie District
+NZ,NZ-CAN,NZ-CAN-066,Waimate District
+NZ,NZ-CAN,NZ-CAN-068,Waitaki District
+NZ,NZ-GIS,NZ-GIS-028,Gisborne District
+NZ,NZ-HKB,NZ-HKB-021,Taupo District
+NZ,NZ-HKB,NZ-HKB-029,Wairoa District
+NZ,NZ-HKB,NZ-HKB-030,Hastings District
+NZ,NZ-HKB,NZ-HKB-031,Napier City
+NZ,NZ-HKB,NZ-HKB-032,Central Hawke's Bay District
+NZ,NZ-HKB,NZ-HKB-038,Rangitikei District
+NZ,NZ-MBH,NZ-MBH-053,Marlborough District
+NZ,NZ-MWT,NZ-MWT-020,Waitomo District
+NZ,NZ-MWT,NZ-MWT-021,Taupo District
+NZ,NZ-MWT,NZ-MWT-034,Stratford District
+NZ,NZ-MWT,NZ-MWT-036,Ruapehu District
+NZ,NZ-MWT,NZ-MWT-037,Wanganui District
+NZ,NZ-MWT,NZ-MWT-038,Rangitikei District
+NZ,NZ-MWT,NZ-MWT-039,Manawatu District
+NZ,NZ-MWT,NZ-MWT-040,Palmerston North City
+NZ,NZ-MWT,NZ-MWT-041,Tararua District
+NZ,NZ-MWT,NZ-MWT-042,Horowhenua District
+NZ,NZ-NSN,NZ-NSN-052,Nelson City
+NZ,NZ-NTL,NZ-NTL-001,Far North District
+NZ,NZ-NTL,NZ-NTL-002,Whangarei District
+NZ,NZ-NTL,NZ-NTL-003,Kaipara District
+NZ,NZ-OTA,NZ-OTA-068,Waitaki District
+NZ,NZ-OTA,NZ-OTA-069,Central Otago District
+NZ,NZ-OTA,NZ-OTA-070,Queenstown-Lakes District
+NZ,NZ-OTA,NZ-OTA-071,Dunedin City
+NZ,NZ-OTA,NZ-OTA-072,Clutha District
+NZ,NZ-STL,NZ-STL-073,Southland District
+NZ,NZ-STL,NZ-STL-074,Gore District
+NZ,NZ-STL,NZ-STL-075,Invercargill City
+NZ,NZ-TAS,NZ-TAS-051,Tasman District
+NZ,NZ-TKI,NZ-TKI-033,New Plymouth District
+NZ,NZ-TKI,NZ-TKI-034,Stratford District
+NZ,NZ-TKI,NZ-TKI-035,South Taranaki District
+NZ,NZ-WGN,NZ-WGN-041,Tararua District
+NZ,NZ-WGN,NZ-WGN-043,Kapiti Coast District
+NZ,NZ-WGN,NZ-WGN-044,Porirua City
+NZ,NZ-WGN,NZ-WGN-045,Upper Hutt City
+NZ,NZ-WGN,NZ-WGN-046,Lower Hutt City
+NZ,NZ-WGN,NZ-WGN-047,Wellington City
+NZ,NZ-WGN,NZ-WGN-048,Masterton District
+NZ,NZ-WGN,NZ-WGN-049,Carterton District
+NZ,NZ-WGN,NZ-WGN-050,South Wairarapa District
+NZ,NZ-WKO,NZ-WKO-010,Franklin District
+NZ,NZ-WKO,NZ-WKO-011,Thames-Coromandel District
+NZ,NZ-WKO,NZ-WKO-012,Hauraki District
+NZ,NZ-WKO,NZ-WKO-013,Waikato District
+NZ,NZ-WKO,NZ-WKO-015,Matamata-Piako District
+NZ,NZ-WKO,NZ-WKO-016,Hamilton City
+NZ,NZ-WKO,NZ-WKO-017,Waipa District
+NZ,NZ-WKO,NZ-WKO-018,Otorohanga District
+NZ,NZ-WKO,NZ-WKO-019,South Waikato District
+NZ,NZ-WKO,NZ-WKO-020,Waitomo District
+NZ,NZ-WKO,NZ-WKO-021,Taupo District
+NZ,NZ-WKO,NZ-WKO-024,Rotorua District
+NZ,NZ-WTC,NZ-WTC-055,Buller District
+NZ,NZ-WTC,NZ-WTC-056,Grey District
+NZ,NZ-WTC,NZ-WTC-057,Westland District
+PT,PT-01,PT-01-AG,Águeda
+PT,PT-01,PT-01-AL,Albergaria-a-Velha
+PT,PT-01,PT-01-AN,Anadia
+PT,PT-01,PT-01-AR,Arouca
+PT,PT-01,PT-01-AV,Aveiro
+PT,PT-01,PT-01-CP,Castelo de Paiva
+PT,PT-01,PT-01-EN,Espinho
+PT,PT-01,PT-01-ER,Estarreja
+PT,PT-01,PT-01-IL,Ílhavo
+PT,PT-01,PT-01-ME,Mealhada
+PT,PT-01,PT-01-MU,Murtosa
+PT,PT-01,PT-01-OA,Oliveira de Azeméis
+PT,PT-01,PT-01-OB,Oliveira do Bairro
+PT,PT-01,PT-01-OV,Ovar
+PT,PT-01,PT-01-SJ,São João da Madeira
+PT,PT-01,PT-01-SM,Santa Maria da Feira
+PT,PT-01,PT-01-SV,Sever do Vouga
+PT,PT-01,PT-01-VC,Vale de Cambra
+PT,PT-01,PT-01-VG,Vagos
+PT,PT-02,PT-02-AJ,Aljustrel
+PT,PT-02,PT-02-AM,Almodôvar
+PT,PT-02,PT-02-AV,Alvito
+PT,PT-02,PT-02-BA,Barrancos
+PT,PT-02,PT-02-BE,Beja
+PT,PT-02,PT-02-CU,Cuba
+PT,PT-02,PT-02-CV,Castro Verde
+PT,PT-02,PT-02-FA,Ferreira do Alentejo
+PT,PT-02,PT-02-ME,Mértola
+PT,PT-02,PT-02-MO,Moura
+PT,PT-02,PT-02-OD,Odemira
+PT,PT-02,PT-02-OU,Ourique
+PT,PT-02,PT-02-SE,Serpa
+PT,PT-02,PT-02-VI,Vidigueira
+PT,PT-03,PT-03-AM,Amares
+PT,PT-03,PT-03-BA,Barcelos
+PT,PT-03,PT-03-BR,Braga
+PT,PT-03,PT-03-CB,Cabeceiras de Basto
+PT,PT-03,PT-03-CL,Celorico de Basto
+PT,PT-03,PT-03-ES,Esposende
+PT,PT-03,PT-03-FA,Fafe
+PT,PT-03,PT-03-GU,Guimarães
+PT,PT-03,PT-03-PL,Póvoa de Lanhoso
+PT,PT-03,PT-03-TB,Terras de Bouro
+PT,PT-03,PT-03-VF,Vila Nova de Famalicão
+PT,PT-03,PT-03-VM,Vieira do Minho
+PT,PT-03,PT-03-VV,Vila Verde
+PT,PT-03,PT-03-VZ,Vizela
+PT,PT-04,PT-04-AF,Alfândega da Fé
+PT,PT-04,PT-04-BR,Bragança
+PT,PT-04,PT-04-CA,Carrazeda de Ansiães
+PT,PT-04,PT-04-FE,Freixo de Espada à Cinta
+PT,PT-04,PT-04-MC,Macedo de Cavaleiros
+PT,PT-04,PT-04-MD,Miranda do Douro
+PT,PT-04,PT-04-MI,Mirandela
+PT,PT-04,PT-04-MO,Mogadouro
+PT,PT-04,PT-04-TM,Torre de Moncorvo
+PT,PT-04,PT-04-VF,Vila Flor
+PT,PT-04,PT-04-VM,Vimioso
+PT,PT-04,PT-04-VN,Vinhais
+PT,PT-05,PT-05-BE,Belmonte
+PT,PT-05,PT-05-CB,Castelo Branco
+PT,PT-05,PT-05-CO,Covilhã
+PT,PT-05,PT-05-FU,Fundão
+PT,PT-05,PT-05-IN,Idanha-a-Nova
+PT,PT-05,PT-05-OL,Oleiros
+PT,PT-05,PT-05-PE,Penamacor
+PT,PT-05,PT-05-PN,Proença-a-Nova
+PT,PT-05,PT-05-SE,Sertã
+PT,PT-05,PT-05-VR,Vila de Rei
+PT,PT-05,PT-05-VV,Vila Velha de Ródão
+PT,PT-06,PT-06-AR,Arganil
+PT,PT-06,PT-06-CA,Cantanhede
+PT,PT-06,PT-06-CN,Condeixa-a-Nova
+PT,PT-06,PT-06-CO,Coimbra
+PT,PT-06,PT-06-FF,Figueira da Foz
+PT,PT-06,PT-06-GO,Góis
+PT,PT-06,PT-06-LO,Lousã
+PT,PT-06,PT-06-MC,Miranda do Corvo
+PT,PT-06,PT-06-MI,Mira
+PT,PT-06,PT-06-MV,Montemor-o-Velho
+PT,PT-06,PT-06-OH,Oliveira do Hospital
+PT,PT-06,PT-06-PC,Penacova
+PT,PT-06,PT-06-PL,Penela
+PT,PT-06,PT-06-PS,Pampilhosa da Serra
+PT,PT-06,PT-06-SO,Soure
+PT,PT-06,PT-06-TA,Tábua
+PT,PT-06,PT-06-VP,Vila Nova de Poiares
+PT,PT-07,PT-07-AL,Alandroal
+PT,PT-07,PT-07-AR,Arraiolos
+PT,PT-07,PT-07-BO,Borba
+PT,PT-07,PT-07-ES,Estremoz
+PT,PT-07,PT-07-EV,Évora
+PT,PT-07,PT-07-MN,Montemor-o-Novo
+PT,PT-07,PT-07-MO,Mourão
+PT,PT-07,PT-07-MR,Mora
+PT,PT-07,PT-07-PO,Portel
+PT,PT-07,PT-07-RD,Redondo
+PT,PT-07,PT-07-RM,Reguengos de Monsaraz
+PT,PT-07,PT-07-VA,Viana do Alentejo
+PT,PT-07,PT-07-VN,Vendas Novas
+PT,PT-07,PT-07-VV,Vila Viçosa
+PT,PT-08,PT-08-AB,Albufeira
+PT,PT-08,PT-08-AC,Alcoutim
+PT,PT-08,PT-08-AJ,Aljezur
+PT,PT-08,PT-08-CM,Castro Marim
+PT,PT-08,PT-08-FA,Faro
+PT,PT-08,PT-08-LA,Lagoa
+PT,PT-08,PT-08-LO,Loulé
+PT,PT-08,PT-08-LS,Lagos
+PT,PT-08,PT-08-MO,Monchique
+PT,PT-08,PT-08-OL,Olhão
+PT,PT-08,PT-08-PO,Portimão
+PT,PT-08,PT-08-SB,São Brás de Alportel
+PT,PT-08,PT-08-SI,Silves
+PT,PT-08,PT-08-TA,Tavira
+PT,PT-08,PT-08-VB,Vila do Bispo
+PT,PT-08,PT-08-VS,Vila Real de Santo António
+PT,PT-09,PT-09-AB,Aguiar da Beira
+PT,PT-09,PT-09-AL,Almeida
+PT,PT-09,PT-09-CB,Celorico da Beira
+PT,PT-09,PT-09-FA,Fornos de Algodres
+PT,PT-09,PT-09-FC,Figueira de Castelo Rodrigo
+PT,PT-09,PT-09-GO,Gouveia
+PT,PT-09,PT-09-GU,Guarda
+PT,PT-09,PT-09-MA,Manteigas
+PT,PT-09,PT-09-ME,Mêda
+PT,PT-09,PT-09-PI,Pinhel
+PT,PT-09,PT-09-SA,Sabugal
+PT,PT-09,PT-09-SE,Seia
+PT,PT-09,PT-09-TR,Trancoso
+PT,PT-09,PT-09-VF,Vila Nova de Foz Côa
+PT,PT-10,PT-10-AC,Alcobaça
+PT,PT-10,PT-10-AN,Ansião
+PT,PT-10,PT-10-AV,Alvaiázere
+PT,PT-10,PT-10-BA,Batalha
+PT,PT-10,PT-10-BO,Bombarral
+PT,PT-10,PT-10-CP,Castanheira de Pêra
+PT,PT-10,PT-10-CR,Caldas da Rainha
+PT,PT-10,PT-10-FV,Figueiró dos Vinhos
+PT,PT-10,PT-10-LE,Leiria
+PT,PT-10,PT-10-MG,Marinha Grande
+PT,PT-10,PT-10-NA,Nazaré
+PT,PT-10,PT-10-OB,Óbidos
+PT,PT-10,PT-10-PB,Pombal
+PT,PT-10,PT-10-PG,Pedrógão Grande
+PT,PT-10,PT-10-PM,Porto de Mós
+PT,PT-10,PT-10-PN,Peniche
+PT,PT-11,PT-11-AL,Alenquer
+PT,PT-11,PT-11-AM,Amadora
+PT,PT-11,PT-11-AV,Arruda dos Vinhos
+PT,PT-11,PT-11-AZ,Azambuja
+PT,PT-11,PT-11-CD,Cadaval
+PT,PT-11,PT-11-CS,Cascais
+PT,PT-11,PT-11-LI,Lisboa
+PT,PT-11,PT-11-LN,Lourinhã
+PT,PT-11,PT-11-LS,Loures
+PT,PT-11,PT-11-MA,Mafra
+PT,PT-11,PT-11-OD,Odivelas
+PT,PT-11,PT-11-OE,Oeiras
+PT,PT-11,PT-11-SI,Sintra
+PT,PT-11,PT-11-SM,Sobral de Monte Agraço
+PT,PT-11,PT-11-TV,Torres Vedras
+PT,PT-11,PT-11-VX,Vila Franca de Xira
+PT,PT-12,PT-12-AC,Alter do Chão
+PT,PT-12,PT-12-AR,Arronches
+PT,PT-12,PT-12-AV,Avis
+PT,PT-12,PT-12-CM,Campo Maior
+PT,PT-12,PT-12-CR,Crato
+PT,PT-12,PT-12-CV,Castelo de Vide
+PT,PT-12,PT-12-EL,Elvas
+PT,PT-12,PT-12-FR,Fronteira
+PT,PT-12,PT-12-GA,Gavião
+PT,PT-12,PT-12-MA,Marvão
+PT,PT-12,PT-12-MO,Monforte
+PT,PT-12,PT-12-NI,Nisa
+PT,PT-12,PT-12-PA,Portalegre
+PT,PT-12,PT-12-PS,Ponte de Sôr
+PT,PT-12,PT-12-SO,Sousel
+PT,PT-13,PT-13-AM,Amarante
+PT,PT-13,PT-13-BA,Baião
+PT,PT-13,PT-13-FE,Felgueiras
+PT,PT-13,PT-13-GO,Gondomar
+PT,PT-13,PT-13-LO,Lousada
+PT,PT-13,PT-13-MC,Marco de Canaveses
+PT,PT-13,PT-13-MI,Maia
+PT,PT-13,PT-13-MT,Matosinhos
+PT,PT-13,PT-13-PA,Paredes
+PT,PT-13,PT-13-PE,Penafiel
+PT,PT-13,PT-13-PF,Paços de Ferreira
+PT,PT-13,PT-13-PO,Porto
+PT,PT-13,PT-13-PV,Póvoa de Varzim
+PT,PT-13,PT-13-ST,Santo Tirso
+PT,PT-13,PT-13-TR,Trofa
+PT,PT-13,PT-13-VA,Valongo
+PT,PT-13,PT-13-VC,Vila do Conde
+PT,PT-13,PT-13-VG,Vila Nova de Gaia
+PT,PT-14,PT-14-AB,Abrantes
+PT,PT-14,PT-14-AC,Alcanena
+PT,PT-14,PT-14-AM,Almeirim
+PT,PT-14,PT-14-AP,Alpiarça
+PT,PT-14,PT-14-BE,Benavente
+PT,PT-14,PT-14-CA,Cartaxo
+PT,PT-14,PT-14-CH,Chamusca
+PT,PT-14,PT-14-CN,Constância
+PT,PT-14,PT-14-CR,Coruche
+PT,PT-14,PT-14-EN,Entroncamento
+PT,PT-14,PT-14-FZ,Ferreira do Zêzere
+PT,PT-14,PT-14-GO,Golegã
+PT,PT-14,PT-14-MA,Mação
+PT,PT-14,PT-14-OU,Ourém
+PT,PT-14,PT-14-RM,Rio Maior
+PT,PT-14,PT-14-SA,Santarém
+PT,PT-14,PT-14-SD,Sardoal
+PT,PT-14,PT-14-SM,Salvaterra de Magos
+PT,PT-14,PT-14-TM,Tomar
+PT,PT-14,PT-14-TN,Torres Novas
+PT,PT-14,PT-14-VB,Vila Nova da Barquinha
+PT,PT-15,PT-15-AC,Alcochete
+PT,PT-15,PT-15-AM,Almada
+PT,PT-15,PT-15-AS,Alcácer do Sal
+PT,PT-15,PT-15-BA,Barreiro
+PT,PT-15,PT-15-GR,Grândola
+PT,PT-15,PT-15-MN,Montijo
+PT,PT-15,PT-15-MT,Moita
+PT,PT-15,PT-15-PA,Palmela
+PT,PT-15,PT-15-SC,Santiago do Cacém
+PT,PT-15,PT-15-SE,Setúbal
+PT,PT-15,PT-15-SI,Sines
+PT,PT-15,PT-15-SS,Sesimbra
+PT,PT-15,PT-15-SX,Seixal
+PT,PT-16,PT-16-AV,Arcos de Valdevez
+PT,PT-16,PT-16-CA,Caminha
+PT,PT-16,PT-16-ME,Melgaço
+PT,PT-16,PT-16-MO,Monção
+PT,PT-16,PT-16-PB,Ponte da Barca
+PT,PT-16,PT-16-PC,Paredes de Coura
+PT,PT-16,PT-16-PL,Ponte de Lima
+PT,PT-16,PT-16-VA,Valença
+PT,PT-16,PT-16-VC,Viana do Castelo
+PT,PT-16,PT-16-VN,Vila Nova de Cerveira
+PT,PT-17,PT-17-AL,Alijó
+PT,PT-17,PT-17-BO,Boticas
+PT,PT-17,PT-17-CH,Chaves
+PT,PT-17,PT-17-MB,Mondim de Basto
+PT,PT-17,PT-17-MF,Mesão Frio
+PT,PT-17,PT-17-MT,Montalegre
+PT,PT-17,PT-17-MU,Murça
+PT,PT-17,PT-17-PR,Peso da Régua
+PT,PT-17,PT-17-RP,Ribeira de Pena
+PT,PT-17,PT-17-SA,Sabrosa
+PT,PT-17,PT-17-SM,Santa Marta de Penaguião
+PT,PT-17,PT-17-VA,Valpaços
+PT,PT-17,PT-17-VP,Vila Pouca de Aguiar
+PT,PT-17,PT-17-VR,Vila Real
+PT,PT-18,PT-18-AR,Armamar
+PT,PT-18,PT-18-CD,Castro Daire
+PT,PT-18,PT-18-CI,Cinfães
+PT,PT-18,PT-18-CS,Carregal do Sal
+PT,PT-18,PT-18-LA,Lamego
+PT,PT-18,PT-18-MA,Mangualde
+PT,PT-18,PT-18-MB,Moimenta da Beira
+PT,PT-18,PT-18-MR,Mortágua
+PT,PT-18,PT-18-NE,Nelas
+PT,PT-18,PT-18-OF,Oliveira de Frades
+PT,PT-18,PT-18-PC,Penalva do Castelo
+PT,PT-18,PT-18-PE,Penedono
+PT,PT-18,PT-18-RE,Resende
+PT,PT-18,PT-18-SC,Santa Comba Dão
+PT,PT-18,PT-18-SE,Sernancelhe
+PT,PT-18,PT-18-SJ,São João da Pesqueira
+PT,PT-18,PT-18-SP,São Pedro do Sul
+PT,PT-18,PT-18-ST,Sátão
+PT,PT-18,PT-18-TB,Tabuaço
+PT,PT-18,PT-18-TO,Tondela
+PT,PT-18,PT-18-TR,Tarouca
+PT,PT-18,PT-18-VO,Vouzela
+PT,PT-18,PT-18-VP,Vila Nova de Paiva
+PT,PT-18,PT-18-VS,Viseu
+PT,PT-20,PT-20-AH,Angra do Heroísmo
+PT,PT-20,PT-20-CA,Calheta
+PT,PT-20,PT-20-CO,Corvo
+PT,PT-20,PT-20-HO,Horta
+PT,PT-20,PT-20-LF,Lajes das Flores
+PT,PT-20,PT-20-LG,Lagoa
+PT,PT-20,PT-20-LP,Lajes do Pico
+PT,PT-20,PT-20-MA,Madalena
+PT,PT-20,PT-20-NO,Nordeste
+PT,PT-20,PT-20-PC,Povoação
+PT,PT-20,PT-20-PD,Ponta Delgada
+PT,PT-20,PT-20-PV,Praia da Vitória
+PT,PT-20,PT-20-RG,Ribeira Grande
+PT,PT-20,PT-20-SF,Santa Cruz das Flores
+PT,PT-20,PT-20-SG,Santa Cruz da Graciosa
+PT,PT-20,PT-20-SP,São Roque do Pico
+PT,PT-20,PT-20-VC,Vila Franca do Campo
+PT,PT-20,PT-20-VE,Velas
+PT,PT-20,PT-20-VP,Vila do Porto
+PT,PT-30,PT-30-CL,Câmara de Lobos
+PT,PT-30,PT-30-CT,Calheta
+PT,PT-30,PT-30-FU,Funchal
+PT,PT-30,PT-30-MA,Machico
+PT,PT-30,PT-30-PD,Ponta do Sol
+PT,PT-30,PT-30-PM,Porto Moniz
+PT,PT-30,PT-30-PS,Porto Santo
+PT,PT-30,PT-30-RB,Ribeira Brava
+PT,PT-30,PT-30-SA,Santana
+PT,PT-30,PT-30-SC,Santa Cruz
+PT,PT-30,PT-30-SV,São Vicente
 US,US-AK,US-AK-013,Aleutians East
 US,US-AK,US-AK-016,Aleutians West
 US,US-AK,US-AK-020,Anchorage
